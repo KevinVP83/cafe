@@ -1,8 +1,10 @@
 package be.hogent.model;
 
 import java.util.Objects;
+import java.util.logging.Logger;
 
 public class Waiter {
+    private static Logger logger = Logger.getLogger(Waiter.class.getName());
     private final int waiterID;
     private final String lastName;
     private final String firsName;

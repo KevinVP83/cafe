@@ -3,10 +3,13 @@ package be.hogent.model;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.logging.Logger;
 
 public class Order {
+    private static Logger logger = Logger.getLogger(Order.class.getName());
     private Waiter waiter;
     private int orderNr;
+    private int tableNr;
     private Set<OrderItem> orderItems = new HashSet<>();
     private LocalDate date;
 
@@ -30,6 +33,17 @@ public class Order {
 
     public void setDate() {
         this.date = LocalDate.now();
+    }
+
+    //Constructors
+
+    public Order(){}
+
+    public Order(int orderNr, Waiter waiter, int tableNr){
+        setDate();
+        this.orderNr = orderNr;
+        this.waiter = waiter;
+        this.tableNr = tableNr;
     }
 
     //Methods

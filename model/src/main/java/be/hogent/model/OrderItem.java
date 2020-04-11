@@ -1,8 +1,10 @@
 package be.hogent.model;
 
 import java.util.Objects;
+import java.util.logging.Logger;
 
 public class OrderItem {
+    private static Logger logger = Logger.getLogger(OrderItem.class.getName());
     private Beverage beverage;
     private int quantity;
 

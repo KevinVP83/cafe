@@ -1,0 +1,8 @@
+[ERROR] 2020-04-10 13:21:22.219 [main] BeverageDAOImpl - Error getting beverages from database Table 'addressbook.beverages' doesn't exist
+[ERROR] 2020-04-10 13:22:11.509 [main] BeverageDAOImpl - Error getting beverages from database Table 'addressbook.beverages' doesn't exist
+[ERROR] 2020-04-10 13:29:02.255 [main] WaiterDAOImpl - Error getting waiters from database Table 'addressbook.waiters' doesn't exist
+[ERROR] 2020-04-10 13:31:56.014 [main] BaseDAO - The server time zone value 'Romance (zomertijd)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-04-10 13:31:56.015 [main] WaiterDAOImpl - Error getting waiters from database null
+[INFO ] 2020-04-10 13:33:31.351 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-10 13:35:09.497 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-10 13:35:17.269 [main] WaiterDAOImpl - Waiters successfully loaded from database

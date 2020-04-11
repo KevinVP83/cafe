@@ -1,7 +1,10 @@
 package be.hogent.model;
 
-public class Table {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+public class Table {
+    private final Logger logger = LogManager.getLogger(Table.class.getName());
     private final int tableNr;
     private Waiter assignedWaiter;
     private Order order;
@@ -18,12 +21,8 @@ public class Table {
         return assignedWaiter;
     }
 
-    public void setAssignedWaiter (Waiter assignedWaiter) throws alreadyOtherWaiterAssignedExeption {
-        if ((assignedWaiter.equals(this.getAssignedWaiter()) || (this.getAssignedWaiter() == null))) {
-            this.assignedWaiter = assignedWaiter;
-        } else {
-            throw new alreadyOtherWaiterAssignedExeption("There is already another waiter assigned to this table !");
-        }
+    public void setAssignedWaiter (Waiter waiter) {
+        this.assignedWaiter = waiter;
     }
 
     public Table (int tableNr){ this.tableNr = tableNr;}
@@ -33,12 +32,9 @@ public class Table {
         return "Table " + tableNr;
     }
 
-    static class alreadyOtherWaiterAssignedExeption extends Exception {
-        public alreadyOtherWaiterAssignedExeption(String message){super(message);}
-    }
-
     public void clearTable(){
         order.getOrderItems().clear();
         assignedWaiter = null;
+        logger.debug(this.toString() + " successfully cleared");
     }
 }
