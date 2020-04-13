@@ -1,4 +1,4 @@
-module view {
+module be.hogent.view {
     requires be.hogent.model;
     requires javafx.controls;
     requires javafx.fxml;

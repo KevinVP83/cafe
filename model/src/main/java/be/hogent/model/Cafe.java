@@ -88,15 +88,18 @@ public class Cafe {
 
     public void login(String name, String password) throws WrongCredentialsException, AlreadyLoggedOnException {
         if (isLoggedOn()) {
+            logger.info("Login failed! There is already another user logged on!");
             throw new AlreadyLoggedOnException("There is already a user logged on !");
         }
         for (Waiter waiter : waiters) {
             if ((waiter.toString().equals(name)) &&  (waiter.getPassword().equals(password))) {
                 isLoggedOn = true;
                 loggedOnWaiter = waiter;
+                logger.info(waiter + " successfully logged on!");
             }
         }
         if (!(isLoggedOn())) {
+            logger.error("Error logging in. Combination of username and password not found!");
             throw new WrongCredentialsException("Combination of username and password not found");
         }
     }
@@ -104,6 +107,7 @@ public class Cafe {
     public void logoff(){
         isLoggedOn = false;
         loggedOnWaiter = null;
+        logger.info("User successfully logged off!");
     }
 
     public void pay(Table table) {

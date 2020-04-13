@@ -7,14 +7,10 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WaiterDAOImplTest {
+public class WaiterDAOImplTest {
 
     @Test
-    void getInstance() {
-    }
-
-    @Test
-    void getAllWaitersTest() {
+    public void getAllWaitersTest() {
         Set<Waiter> waiters = WaiterDAOImpl.getInstance().getWaiters();
         assertEquals(4,waiters.size(),"Waiters size should be 4");
     }

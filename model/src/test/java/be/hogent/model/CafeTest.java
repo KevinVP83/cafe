@@ -114,6 +114,5 @@ class CafeTest {
         cafe.getTables().add(table1);
         cafe.assignWaiter(1,wout);
         assertEquals(wout, table1.getAssignedWaiter(),"Table1 assigned waiter should be Wout");
-        
     }
 }
