@@ -8,51 +8,51 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CafeTest {
     private Cafe cafe;
-    private Waiter wout;
-    private Waiter nathalie;
+    private Waiter wouter;
+    private Waiter nathan;
     private Waiter ilse;
     private Waiter patrick;
-    private Table table1;
-    private Table table2;
-    private Table table3;
+    private Table table7;
+    private Table table8;
+    private Table table9;
 
 
     @BeforeEach
     public void setup(){
         cafe = new Cafe();
-        wout = new Waiter(1,"Peters","Wout", "password");
-        nathalie = new Waiter(2,"Segers","Nathalie", "password");
-        ilse = new Waiter(3,"Vandenbroeck","Ilse", "password");
-        patrick = new Waiter(4,"Desmet","Patrick", "password");
-        table1 = new Table(1);
-        table2 = new Table(2);
-        table3 = new Table(3);
+        wouter = new Waiter(5,"Peters","Wouter", "password");
+        nathan = new Waiter(6,"Segers","Nathan", "password");
+        ilse = new Waiter(7,"Vandenbroeck","Ilse", "password");
+        patrick = new Waiter(8,"Desmet","Patrick", "password");
+        table7 = new Table(7);
+        table8 = new Table(8);
+        table9 = new Table(9);
     }
 
 
     @Test
     void addWaiterTest() {
-        Assertions.assertEquals(0, cafe.getWaiters().size(), "Test addWaiter() 01 failed");
-        cafe.addWaiter(wout);
-        Assertions.assertEquals(1, cafe.getWaiters().size(), "Test addWaiter() 02 failed");
-        cafe.addWaiter(nathalie);
+        Assertions.assertEquals(4, cafe.getWaiters().size(), "Test addWaiter() 01 failed");
+        cafe.addWaiter(wouter);
+        Assertions.assertEquals(5, cafe.getWaiters().size(), "Test addWaiter() 02 failed");
+        cafe.addWaiter(nathan);
         cafe.addWaiter(ilse);
         cafe.addWaiter(patrick);
-        Assertions.assertEquals(4, cafe.getWaiters().size(), "Test addWaiter() 03 failed");
+        Assertions.assertEquals(8, cafe.getWaiters().size(), "Test addWaiter() 03 failed");
         cafe.addWaiter(patrick);
-        Assertions.assertEquals(4, cafe.getWaiters().size(), "Test addWaiter() 03 failed");
+        Assertions.assertEquals(8, cafe.getWaiters().size(), "Test addWaiter() 03 failed");
     }
 
     @Test
     void loginTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
-        cafe.addWaiter(wout);
-        cafe.addWaiter(nathalie);
+        cafe.addWaiter(wouter);
+        cafe.addWaiter(nathan);
         cafe.addWaiter(ilse);
         cafe.addWaiter(patrick);
 
-        cafe.login("Wout Peters", "password");
+        cafe.login("Wouter Peters", "password");
         assertTrue(cafe.isLoggedOn(),"loginTest 1 failed");
-        assertEquals(wout, cafe.getLoggedOnWaiter());
+        assertEquals(wouter, cafe.getLoggedOnWaiter());
 
         try {
             cafe.login("Nathalie Segers", "password");
@@ -72,35 +72,24 @@ class CafeTest {
 
     @Test
     void getActiveTableTest() {
-        cafe.setActiveTable(table1);
-        assertEquals(table1,cafe.getActiveTable(),"activeTable should be table 1");
-        cafe.setActiveTable(table3);
-        assertEquals(table3,cafe.getActiveTable(),"activeTable should be table 3");
-    }
-
-    @Test
-    void setBeveragesTest() {
-        cafe.setBeverages();
-        assertEquals(5,cafe.getBeverages().size(),"Beverages size should be 5");
+        cafe.setActiveTable(table7);
+        assertEquals(table7,cafe.getActiveTable(),"activeTable should be table 7");
+        cafe.setActiveTable(table8);
+        assertEquals(table8,cafe.getActiveTable(),"activeTable should be table 8");
     }
 
     @Test
     void getBeveragesTest() {
-        assertEquals(0,cafe.getBeverages().size(),"Beverages should be empty");
-        cafe.setBeverages();
-        assertEquals(5,cafe.getBeverages().size(),"Beverages size should be 5");
+        assertEquals(17,cafe.getBeverages().size(),"Beverages size should be 17");
     }
 
     @Test
     void setTablesTest(){
-       cafe.setTables();
        assertEquals(6,cafe.getTables().size(),"Test setTables failed");
     }
 
     @Test
     void getTablesTest(){
-        assertEquals(0,cafe.getTables().size(),"Test setTables failed");
-        cafe.setTables();
         assertEquals(6,cafe.getTables().size(),"Test setTables failed");
     }
 
@@ -110,9 +99,19 @@ class CafeTest {
     }
 
     @Test
-    void assignWaiterTest() throws Cafe.alreadyOtherWaiterAssignedException {
-        cafe.getTables().add(table1);
-        cafe.assignWaiter(1,wout);
-        assertEquals(wout, table1.getAssignedWaiter(),"Table1 assigned waiter should be Wout");
+    void assignWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException{
+        cafe.addWaiter(wouter);
+        cafe.addWaiter(nathan);
+        cafe.setTables();
+        cafe.getTables().add(table7);
+        cafe.setActiveTable(table7);
+        cafe.login("Wouter Peters", "password");
+        cafe.assignWaiter(cafe.getActiveTable());
+        assertEquals(wouter, table7.getAssignedWaiter(),"Table1 assigned waiter should be Wout");
+        cafe.logoff();
+        cafe.login("Nathan Segers", "password");
+        cafe.setActiveTable(table7);
+        cafe.assignWaiter(cafe.getActiveTable());
+        assertEquals(wouter, table7.getAssignedWaiter(),"assignWaiterTest 2 failed. Table1 assigned waiter should still be Wout");
     }
 }

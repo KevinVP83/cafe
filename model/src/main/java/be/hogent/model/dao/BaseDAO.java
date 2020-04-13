@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class BaseDAO {
+public class BaseDAO implements DAO {
     private final Logger logger = LogManager.getLogger (BaseDAO.class.getName ());
 
     private String dbUrl, dbPassword, dbUser;
@@ -33,13 +33,13 @@ public class BaseDAO {
         }
     }
 
-    public Connection getConnection () throws SQLException {
+    public Connection getConnection () throws DAOException {
         try {
             readProperties("db.properties");
             return DriverManager.getConnection (dbUrl, dbUser, dbPassword);
         } catch (SQLException e) {
             logger.error(e.getMessage());
-            throw new SQLException ();
+            throw new DAOException ();
         }
     }
 }

@@ -35,17 +35,6 @@ public class Order {
         this.date = LocalDate.now();
     }
 
-    //Constructors
-
-    public Order(){}
-
-    public Order(int orderNr, Waiter waiter, int tableNr){
-        setDate();
-        this.orderNr = orderNr;
-        this.waiter = waiter;
-        this.tableNr = tableNr;
-    }
-
     //Methods
 
     public void addOrderItem(OrderItem orderItem){

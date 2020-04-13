@@ -13,41 +13,28 @@ public class Cafe {
     private Set<Waiter> waiters = new HashSet<>();
     private Set<Beverage> beverages = new HashSet<>();
     private Set<Table> tables = new HashSet<>();
-    private Map<Integer, Waiter> assignedTables = new HashMap<>();
     private boolean isLoggedOn;
     private Waiter loggedOnWaiter;
     private Table activeTable;
+
+    public Cafe(){
+
+        initializeCafe();
+    }
 
     private void initializeCafe(){
         waiters = WaiterDAOImpl.getInstance().getWaiters();
         beverages = BeverageDAOImpl.getInstance().getBeverages();
         setTables();
-        logger.debug("Cafe successfully initialized. ");
+        logger.info("Cafe successfully initialized. ");
     }
 
-    public void assignWaiter(Integer tableNr, Waiter waiter) throws alreadyOtherWaiterAssignedException{
-        if (assignedTables.containsKey(tableNr)){
-            if (assignedTables.get(tableNr) == waiter){
-                //This waiter is already assigned to this table.
-                logger.info(waiter.toString() + " is already assigned to this table");
-            }
-            else {
-                //This waiter cannot be assigned, table is already in use by another waiter.
-                logger.error("Table " + tableNr + " already has another assigned waiter !");
-                throw new alreadyOtherWaiterAssignedException("Already other waiter assigned to this table !");
-            }
+    public void assignWaiter(Table table){
+        if (table.getAssignedWaiter()==null || table.getAssignedWaiter().equals(loggedOnWaiter)){
+            table.setAssignedWaiter(loggedOnWaiter);
+            logger.info(loggedOnWaiter.toString() + " successfully assigned to " + table.toString() + "!");
         }
-        else {
-            //Assign this waiter to this table.
-            assignedTables.put(tableNr, waiter);
-            for (Table table: tables) {
-                if (table.getTableNr() == tableNr){
-                    table.setAssignedWaiter(waiter);
-                    break;
-                }
-            }
-           logger.info(waiter.toString() + " successfully assigned to table " + tableNr);
-        }
+        else{logger.error("There is already another waiter assigned to " + table.toString() + "!");}
     }
 
     public Table getActiveTable() {
@@ -64,14 +51,6 @@ public class Cafe {
 
     public void setActiveTable(Table table) {
         this.activeTable = table;
-    }
-
-    public void setBeverages() {
-        beverages.add(new Beverage(1, "Cola", 2.40));
-        beverages.add(new Beverage(2, "Leffe", 3.00));
-        beverages.add(new Beverage(3, "Koffie", 2.40));
-        beverages.add(new Beverage(4, "Cola-Light", 2.40));
-        beverages.add(new Beverage(5, "Whisky", 12.00));
     }
 
     public void addWaiter(Waiter waiter) {
@@ -105,9 +84,9 @@ public class Cafe {
     }
 
     public void logoff(){
+        logger.info(loggedOnWaiter.toString() + " successfully logged off!");
         isLoggedOn = false;
         loggedOnWaiter = null;
-        logger.info("User successfully logged off!");
     }
 
     public void pay(Table table) {
@@ -128,12 +107,18 @@ public class Cafe {
     }
 
     public void setTables() {
-        tables.add(new Table(1));
-        tables.add(new Table(2));
-        tables.add(new Table(3));
-        tables.add(new Table(4));
-        tables.add(new Table(5));
-        tables.add(new Table(6));
+        Table table1 = new Table(1);
+        tables.add(table1);
+        Table table2 = new Table(2);
+        tables.add(table2);
+        Table table3 = new Table(3);
+        tables.add(table3);
+        Table table4 = new Table(4);
+        tables.add(table4);
+        Table table5 = new Table(5);
+        tables.add(table5);
+        Table table6 = new Table(6);
+        tables.add(table6);
     }
 
     public static class WrongCredentialsException extends Exception {
