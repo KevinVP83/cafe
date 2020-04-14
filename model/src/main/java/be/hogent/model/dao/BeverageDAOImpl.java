@@ -11,9 +11,7 @@ import java.util.Set;
 public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
 
     private static final String GET_ALL_BEVERAGES = "SELECT * from beverages";
-
     private final Logger logger = LogManager.getLogger(BeverageDAOImpl.class.getName());
-
     private static BeverageDAOImpl instance = new BeverageDAOImpl();
 
     private BeverageDAOImpl() {
@@ -40,7 +38,7 @@ public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
             }
             logger.info("Beverages successfully loaded from database");
 
-        } catch (SQLException e) {
+        } catch (SQLException | DAOException e) {
             logger.error("Error getting beverages from database " + e.getMessage());
         }
         return beverages;

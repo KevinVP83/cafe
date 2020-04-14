@@ -1,5 +1,6 @@
 package be.hogent.model;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,21 +15,22 @@ class CafeTest {
     private Waiter patrick;
     private Table table7;
     private Table table8;
-    private Table table9;
+    private Beverage beverage1;
+    private Beverage beverage2;
 
 
     @BeforeEach
-    public void setup(){
+    public void setup() {
         cafe = new Cafe();
-        wouter = new Waiter(5,"Peters","Wouter", "password");
-        nathan = new Waiter(6,"Segers","Nathan", "password");
-        ilse = new Waiter(7,"Vandenbroeck","Ilse", "password");
-        patrick = new Waiter(8,"Desmet","Patrick", "password");
+        wouter = new Waiter(5, "Peters", "Wouter", "password");
+        nathan = new Waiter(6, "Segers", "Nathan", "password");
+        ilse = new Waiter(7, "Vandenbroeck", "Ilse", "password");
+        patrick = new Waiter(8, "Desmet", "Patrick", "password");
         table7 = new Table(7);
         table8 = new Table(8);
-        table9 = new Table(9);
+        beverage1 = new Beverage(1, "Cola", 2.40);
+        beverage2 = new Beverage(2, "Cola-Light", 2.40);
     }
-
 
     @Test
     void addWaiterTest() {
@@ -72,6 +74,7 @@ class CafeTest {
 
     @Test
     void getActiveTableTest() {
+        cafe.getTables().add(table7);
         cafe.setActiveTable(table7);
         assertEquals(table7,cafe.getActiveTable(),"activeTable should be table 7");
         cafe.setActiveTable(table8);
@@ -94,24 +97,54 @@ class CafeTest {
     }
 
     @Test
-    void payTest(){
-
-    }
-
-    @Test
-    void assignWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException{
+    void assignWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException, Cafe.alreadyOtherWaiterAssignedException {
         cafe.addWaiter(wouter);
         cafe.addWaiter(nathan);
-        cafe.setTables();
         cafe.getTables().add(table7);
         cafe.setActiveTable(table7);
         cafe.login("Wouter Peters", "password");
-        cafe.assignWaiter(cafe.getActiveTable());
+        cafe.assignWaiter(table7);
         assertEquals(wouter, table7.getAssignedWaiter(),"Table1 assigned waiter should be Wout");
         cafe.logoff();
         cafe.login("Nathan Segers", "password");
         cafe.setActiveTable(table7);
-        cafe.assignWaiter(cafe.getActiveTable());
-        assertEquals(wouter, table7.getAssignedWaiter(),"assignWaiterTest 2 failed. Table1 assigned waiter should still be Wout");
+        try {
+            cafe.assignWaiter(cafe.getActiveTable());
+        }
+        catch (Cafe.alreadyOtherWaiterAssignedException e){
+            Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "assignWaiterTest 2 failed. alreadyOtherWaiterAssignedException expected");
+        }
+        assertEquals(wouter, table7.getAssignedWaiter(),"assignWaiterTest 3 failed. Table1 assigned waiter should still be Wout");
+    }
+
+    @Test
+    void orderAndPayTest() throws Cafe.alreadyOtherWaiterAssignedException, Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+        cafe.addWaiter(nathan);
+        cafe.getTables().add(table7);
+        cafe.login("Wout Peters", "password");
+        cafe.setActiveTable(table7);
+        cafe.order(beverage1, 2);
+        assertEquals(1, cafe.getActiveTable().getOrder().getOrderItems().size(), "orderTest1 failed. OrderItems should be 1");
+        cafe.order(beverage1, 3);
+        assertEquals(1, cafe.getActiveTable().getOrder().getOrderItems().size(), "orderTest2 failed. OrderItems should still be 1");
+        assertEquals(12.0, cafe.getActiveTable().getOrder().getTotalPrice(), 2, "orderTest2 failed");
+        cafe.order(beverage2, 2);
+        assertEquals(2, cafe.getActiveTable().getOrder().getOrderItems().size(), "orderTest3 failed. OrderItems should be 2");
+        cafe.logoff();
+        cafe.login("Nathan Segers", "password");
+        cafe.setActiveTable(table7);
+        try {
+            cafe.order(beverage1, 2);
+        } catch (Cafe.alreadyOtherWaiterAssignedException e) {
+            Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "orderTest 4 failed. alreadyOtherWaiterAssignedException expected");
+        }
+        try {
+            cafe.pay(table7);
+        } catch (Cafe.alreadyOtherWaiterAssignedException e) {
+            Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "PayTest 1 failed. alreadyOtherWaiterAssignedException expected");
+        }
+        cafe.logoff();
+        cafe.login("Wout Peters", "password");
+        cafe.pay(table7);
     }
 }

@@ -1,5 +1,6 @@
 package be.hogent.model;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -31,18 +32,11 @@ class TableTest {
         assertEquals(4, table4.getTableNr(),"Table 4 tablenr should be 4");
     }
 
-//    @Test
-//    void setAssignedWaiterTest() throws Exception {
-//        table1.setAssignedWaiter(wout);
-//        assertEquals(wout, table1.getAssignedWaiter(), "Table 1 assigned waiter should be Wout !");
-//        table1.setAssignedWaiter(wout);
-//        assertEquals(wout, table1.getAssignedWaiter(), "Table 1 assigned waiter should be Wout !");
-//        try {
-//            table1.setAssignedWaiter(nathalie);
-//        } catch (Table.alreadyOtherWaiterAssignedExeption e) {
-//            Assertions.assertEquals("be.hogent.cafe.model.Table$alreadyOtherWaiterAssignedExeption", e.getClass().getName(), "Assigning Nathalie to table 1 should not work!");
-//        }
-//    }
+    @Test
+    void setAssignedWaiterTest() {
+        table1.setAssignedWaiter(wout);
+        assertEquals(wout, table1.getAssignedWaiter(), "Table 1 assigned waiter should be Wout !");
+    }
 
     @Test
     void getAssignedWaiterTest() {

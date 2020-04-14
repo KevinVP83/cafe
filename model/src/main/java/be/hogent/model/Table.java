@@ -37,4 +37,8 @@ public class Table {
         assignedWaiter = null;
         logger.debug(this.toString() + " successfully cleared");
     }
+
+    public void createOrder() {
+        order = new Order(getTableNr());
+    }
 }

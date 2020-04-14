@@ -43,7 +43,7 @@ public class WaiterDAOImpl extends BaseDAO implements WaiterDAO{
             }
             logger.info("Waiters successfully loaded from database");
 
-        } catch (SQLException e) {
+        } catch (SQLException | DAOException e) {
             logger.error("Error getting waiters from database " + e.getMessage());
         }
         return waiters;

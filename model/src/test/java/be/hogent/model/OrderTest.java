@@ -3,6 +3,8 @@ package be.hogent.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDate;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OrderTest {
@@ -28,35 +30,6 @@ class OrderTest {
         order4 = new Order();
     }
 
-
-    @Test
-    void getWaiterIDTest() {
-    }
-
-    @Test
-    void setWaiterIDTest() {
-    }
-
-    @Test
-    void getIDTest() {
-    }
-
-    @Test
-    void setIDTest() {
-    }
-
-    @Test
-    void getOrderItemsTest() {
-    }
-
-    @Test
-    void getDateTest() {
-    }
-
-    @Test
-    void setDateTest() {
-    }
-
     @Test
     void addOrderItemTest() {
         order1.addOrderItem(new OrderItem(cola, 2));
@@ -73,5 +46,17 @@ class OrderTest {
         assertEquals(14.4,order1.getTotalPrice(),2,"getTotalPrize test 1 failed");
         order1.addOrderItem(new OrderItem(cola, 3));
         assertEquals(21.6,order1.getTotalPrice(),2,"getTotalPrize test 2 failed");
+    }
+
+    @Test
+    void getTableNrTest(){
+        Order order5 = new Order(5);
+        assertEquals(5,order5.getTableNr(),"getTableNrTest failed. TableNr should be 5!");
+    }
+
+    @Test
+    void getDateTest(){
+        Order order5 = new Order(5);
+        assertEquals(LocalDate.now(),order5.getDate(),"Order 5 date should be today");
     }
 }

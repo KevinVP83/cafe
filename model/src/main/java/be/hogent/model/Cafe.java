@@ -16,6 +16,7 @@ public class Cafe {
     private boolean isLoggedOn;
     private Waiter loggedOnWaiter;
     private Table activeTable;
+    private int latestOrderNr;
 
     public Cafe(){
 
@@ -26,19 +27,31 @@ public class Cafe {
         waiters = WaiterDAOImpl.getInstance().getWaiters();
         beverages = BeverageDAOImpl.getInstance().getBeverages();
         setTables();
+        latestOrderNr = OrderDAOImpl.getInstance().getLatestOrderNr() + 1;
         logger.info("Cafe successfully initialized. ");
     }
 
-    public void assignWaiter(Table table){
+    public void assignWaiter(Table table) throws alreadyOtherWaiterAssignedException {
         if (table.getAssignedWaiter()==null || table.getAssignedWaiter().equals(loggedOnWaiter)){
             table.setAssignedWaiter(loggedOnWaiter);
             logger.info(loggedOnWaiter.toString() + " successfully assigned to " + table.toString() + "!");
         }
-        else{logger.error("There is already another waiter assigned to " + table.toString() + "!");}
+        else {
+            logger.error("There is already another waiter assigned to " + table.toString() + "!");
+            throw new alreadyOtherWaiterAssignedException("There is already another waiter assigned to this table !");
+        }
+    }
+
+    public int getLatestOrderNr(){
+        return latestOrderNr;
     }
 
     public Table getActiveTable() {
         return activeTable;
+    }
+
+    public void setLatestOrderNr(){
+        latestOrderNr += latestOrderNr;
     }
 
     public Set<Waiter> getWaiters() {
@@ -89,18 +102,42 @@ public class Cafe {
         loggedOnWaiter = null;
     }
 
-    public void pay(Table table) {
-        try {
-            OrderDAOImpl orderDAOImpl = OrderDAOImpl.getInstance();
-            orderDAOImpl.insertOrder(table);
-        } catch (Exception e){
-            logger.error(table.toString() + " pay failed");
+    public void pay(Table table)throws alreadyOtherWaiterAssignedException {
+        if (table.getAssignedWaiter().equals(loggedOnWaiter)) {
+            try {
+                OrderDAOImpl orderDAOImpl = OrderDAOImpl.getInstance();
+                orderDAOImpl.insertOrder(table);
+            } catch (Exception e) {
+                logger.error(table.toString() + " pay failed");
+            }
+            table.clearTable();
+            logger.info(table.toString() + " successfully payed the bill !");
+        } else {
+            logger.error("Error paying bill " + table.toString() + ". Other waiter assigned to this table!");
+            throw new alreadyOtherWaiterAssignedException("Error paying bill. Other waiter assigned to this table!");
         }
-        table.clearTable();
-        logger.info(table.toString() + " successfully payed the bill !");
     }
 
-
+    public void order(Beverage beverage, int qty)throws alreadyOtherWaiterAssignedException{
+        if (activeTable.getOrder()==null){
+            activeTable.createOrder();
+            activeTable.getOrder().setOrderNr(getLatestOrderNr());
+            setLatestOrderNr();
+            assignWaiter(activeTable);
+            activeTable.getOrder().setWaiter(loggedOnWaiter);
+            activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
+        }
+        else{
+            if (activeTable.getAssignedWaiter().equals(loggedOnWaiter)){
+                activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
+                logger.info(activeTable.toString() + " order successfully created by " + loggedOnWaiter.toString() + "!");
+            }
+            else {
+                logger.error("Error placing order on table " + activeTable.getTableNr() + " Other waiter assigned to this table!");
+                throw new alreadyOtherWaiterAssignedException("Other waiter assigned to this table!");
+            }
+        }
+    }
 
     public Set<Table> getTables() {
         return tables;

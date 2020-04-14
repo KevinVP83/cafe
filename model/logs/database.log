@@ -1,127 +1,719 @@
-[INFO ] 2020-04-10 13:33:31.351 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-10 13:35:09.497 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-10 13:35:17.269 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 09:40:17.416 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 09:41:30.262 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 09:42:41.076 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 09:42:41.118 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 09:44:03.124 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 09:44:03.149 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 10:19:43.052 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 10:19:43.073 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 10:55:48.162 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 10:55:48.188 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 10:59:26.833 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 10:59:26.859 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.640 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.667 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.696 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.717 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.742 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.757 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.776 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.789 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.806 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.823 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.841 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.855 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.869 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.882 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.899 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.914 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.931 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.944 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.966 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 14:26:12.983 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:05:37.544 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:05:37.569 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:06:58.655 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:06:58.686 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.107 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.134 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.168 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.188 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.204 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.217 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.234 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.253 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.278 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.300 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.317 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.332 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.352 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.371 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.401 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.419 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.441 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:13:52.459 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:15:38.792 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:15:38.820 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:36.943 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:36.973 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.012 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.031 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.048 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.064 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.086 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.101 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.120 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.132 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.146 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.158 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.173 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.189 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.212 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:46:37.226 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.723 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.751 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.785 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.801 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.819 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.836 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.857 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.877 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.894 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.907 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.919 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.931 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.950 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.961 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.977 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:20.990 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.849 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.868 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.888 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.905 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.925 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.937 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.952 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.972 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:57.992 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.008 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.024 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.037 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.053 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.067 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.083 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.097 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.114 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:47:58.128 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.845 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.871 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.894 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.911 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.930 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.941 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.955 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.971 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:16.987 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.001 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.013 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.024 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.040 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.055 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.072 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.085 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.098 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-13 15:50:17.114 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:41:30.308 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:41:30.334 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:43:38.795 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:43:38.824 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.562 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.606 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.670 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.704 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.745 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.771 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.801 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.829 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.870 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.891 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.914 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.936 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.964 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:39.985 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:40.010 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:40.035 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:45:40.058 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:45:40.080 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.865 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.894 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.931 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.949 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.965 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.978 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:06.997 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.016 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.046 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.062 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.074 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.085 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.100 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.113 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.132 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.146 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.163 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:46:07.175 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:47:44.857 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:47:44.886 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:49:08.928 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:49:08.953 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 07:58:52.996 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 07:58:53.019 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:00:10.947 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:00:10.974 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:05:07.149 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:05:07.178 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:05:32.600 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:05:32.625 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:52.998 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.027 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.063 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.080 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.098 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.111 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.129 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.146 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.171 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.188 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.206 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.222 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.242 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.260 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.291 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.305 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.326 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:18:53.340 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:28:34.856 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:28:34.882 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.561 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.591 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.613 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.627 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.645 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.657 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.672 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.686 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.704 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.716 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.731 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.743 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.755 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.766 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.796 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.809 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.821 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.834 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.847 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:29:20.860 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:34:57.379 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:34:57.407 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:39:39.144 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:39:39.172 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.762 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.784 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.817 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.839 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.877 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.894 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.908 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.923 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.942 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.955 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.968 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.980 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:40.996 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:41.009 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:51:41.025 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:51:41.041 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:52:51.912 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:52:51.943 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[ERROR] 2020-04-14 08:52:52.013 [main] OrderDAOImpl - failed adding Order to Database
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '" + "values (0, 1, 7,'2020-04-13',5)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at be.hogent.model.dao.OrderDAOImpl.insertOrder(OrderDAOImpl.java:39) [classes/:?]
+	at be.hogent.model.Cafe.pay(Cafe.java:99) [classes/:?]
+	at be.hogent.model.CafeTest.orderAndPayTest(CafeTest.java:153) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.1.jar:1.0.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[INFO ] 2020-04-14 08:53:13.591 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.613 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.635 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.654 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[ERROR] 2020-04-14 08:53:13.709 [main] OrderDAOImpl - failed adding Order to Database
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '" + "values (0, 2, 2,'2020-04-13',5)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at be.hogent.model.dao.OrderDAOImpl.insertOrder(OrderDAOImpl.java:39) [classes/:?]
+	at be.hogent.model.Cafe.pay(Cafe.java:99) [classes/:?]
+	at be.hogent.model.CafeTest.orderAndPayTest(CafeTest.java:153) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.1.jar:1.0.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.runner.JUnitPlatform.run(JUnitPlatform.java:133) [junit-platform-runner-1.0.0.jar:1.0.0]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[INFO ] 2020-04-14 08:53:13.725 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.738 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.754 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.768 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.784 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.798 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.813 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.827 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.841 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.855 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.873 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.884 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.898 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 08:53:13.910 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:15.939 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:15.963 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:15.988 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.006 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[ERROR] 2020-04-14 09:22:16.051 [main] OrderDAOImpl - failed adding Order to Database
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '" + "values (0, 2, 2,'2020-04-14',5)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at be.hogent.model.dao.OrderDAOImpl.insertOrder(OrderDAOImpl.java:39) [classes/:?]
+	at be.hogent.model.Cafe.pay(Cafe.java:99) [classes/:?]
+	at be.hogent.model.CafeTest.orderAndPayTest(CafeTest.java:153) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.1.jar:1.0.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.runner.JUnitPlatform.run(JUnitPlatform.java:133) [junit-platform-runner-1.0.0.jar:1.0.0]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[INFO ] 2020-04-14 09:22:16.070 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.088 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.103 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.116 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.129 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.142 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.155 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.169 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.183 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.199 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.214 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.226 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.240 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:22:16.255 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.544 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.572 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.609 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.628 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[ERROR] 2020-04-14 09:48:28.678 [main] OrderDAOImpl - failed adding Order to Database
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cafe`.`orders`, CONSTRAINT `FK_WAITER` FOREIGN KEY (`waiterID`) REFERENCES `waiters` (`waiterID`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.18.jar:8.0.18]
+	at be.hogent.model.dao.OrderDAOImpl.insertOrder(OrderDAOImpl.java:39) [classes/:?]
+	at be.hogent.model.Cafe.pay(Cafe.java:99) [classes/:?]
+	at be.hogent.model.CafeTest.orderAndPayTest(CafeTest.java:153) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) [junit-platform-commons-1.0.1.jar:1.0.1]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:167) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:163) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:110) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) [junit-jupiter-engine-5.0.1.jar:5.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) [?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.1.jar:1.0.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+[INFO ] 2020-04-14 09:48:28.698 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.713 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.734 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.748 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.764 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.776 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.789 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.806 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.818 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.832 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.852 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 09:48:28.863 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.356 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.383 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.419 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.443 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.512 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:01:11.519 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:01:11.542 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.562 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.598 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.623 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.645 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.664 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.686 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.709 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.729 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.747 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.764 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:01:11.782 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.586 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.611 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.635 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.651 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.694 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:03:08.697 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:03:08.711 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.729 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.749 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.761 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.776 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.790 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.804 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.819 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.832 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.848 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.861 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.873 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.887 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:03:08.900 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.577 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.605 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.630 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.650 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.693 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:20:32.697 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:20:32.709 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.725 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.739 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.755 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.771 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.782 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.796 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.808 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.823 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.837 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.851 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.862 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.878 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:20:32.895 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.767 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.796 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.821 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.837 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.897 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:28:26.904 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:28:26.929 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.954 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:26.986 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.000 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.015 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.026 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.040 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.055 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.073 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.095 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.110 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.121 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.136 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:28:27.149 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.107 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.133 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.155 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.171 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.218 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:29:21.221 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:29:21.234 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.254 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.269 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.282 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.304 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.318 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.336 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.351 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.365 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.379 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.395 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.411 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.429 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:29:21.445 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.607 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.631 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.648 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.662 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.710 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:36:33.712 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 10:36:33.730 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.749 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.764 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.777 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.792 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.804 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.817 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.830 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.843 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.858 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.876 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.886 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.899 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 10:36:33.914 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.249 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.276 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.300 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.321 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.362 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.375 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.393 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.410 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.428 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.444 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.460 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.475 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.493 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.506 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.523 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.542 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.565 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:02:50.583 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:05:23.552 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:05:23.578 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.214 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.253 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.284 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.299 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.342 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 11:11:22.345 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 11:11:22.370 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.387 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.403 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.415 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.430 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.441 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.457 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.469 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.482 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.495 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.513 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.525 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.539 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 11:11:22.551 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.829 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.849 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.868 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.882 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.924 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:32:40.927 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:32:40.944 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.963 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.978 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:40.992 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.008 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.019 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.033 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.048 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.060 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.075 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.088 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.099 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.114 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:32:41.138 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.852 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.881 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.903 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.917 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.959 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:33:51.961 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:33:51.974 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:51.997 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.014 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.031 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.046 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.059 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.075 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.089 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.103 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.115 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.137 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.150 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.164 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:33:52.231 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.008 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.029 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.052 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.069 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.112 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:36:40.114 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 14:36:40.133 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.152 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.171 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.184 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.200 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.213 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.229 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.243 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.258 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.273 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.291 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.303 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.316 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 14:36:40.384 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.705 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.727 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.753 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:28.771 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.788 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.801 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:28.840 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:24:28.842 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:24:28.859 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.871 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.882 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:28.894 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.906 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.918 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:28.935 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.948 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.959 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:28.971 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.982 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:28.993 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:29.007 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:29.022 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:29.036 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:29.049 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:24:29.059 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:29.072 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:24:29.087 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:24:29.171 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.347 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.372 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.402 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.420 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.434 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.447 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.486 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:26:17.489 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:26:17.506 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.522 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.535 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.553 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.568 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.584 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.599 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.613 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.627 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.640 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.658 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.672 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.686 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.700 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.712 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.727 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.745 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.757 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:17.771 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:17.849 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.021 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.050 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.080 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.094 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.107 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.119 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.170 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:26:53.173 [main] OrderDAOImpl - blabla
+[INFO ] 2020-04-14 15:26:53.188 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.202 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.214 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.226 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.240 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.252 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.266 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.282 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.295 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.313 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.326 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.340 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.354 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.369 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.384 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.398 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.411 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.422 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-14 15:26:53.436 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-14 15:26:53.523 [main] WaiterDAOImpl - Waiters successfully loaded from database

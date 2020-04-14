@@ -3,10 +3,11 @@ package be.hogent.model;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Order {
-    private static Logger logger = Logger.getLogger(Order.class.getName());
+    private static Logger logger = LogManager.getLogger(Order.class.getName());
     private Waiter waiter;
     private int orderNr;
     private int tableNr;
@@ -35,14 +36,31 @@ public class Order {
         this.date = LocalDate.now();
     }
 
+    public void setWaiter(Waiter waiter){ this.waiter = waiter;}
+
+    public int getTableNr() { return tableNr; }
+
+    //constructor
+
+    public Order(){}
+
+    public Order(int tableNr){
+        setDate();
+        this.tableNr = tableNr;
+    }
+
     //Methods
 
     public void addOrderItem(OrderItem orderItem){
-        if(!(orderItems.contains(orderItem))){orderItems.add(orderItem);}
+        if(!(orderItems.contains(orderItem))){
+            orderItems.add(orderItem);
+            logger.info("OrderItem successfully created for table " + tableNr + "!");
+        }
         else {
             for (OrderItem o: orderItems) {
                 if (orderItem.equals(o)){
                     o.setQuantity(orderItem.getQuantity());
+                    logger.info("OrderItem successfully updated for table " + tableNr + "!");
                 }
             }
         }
@@ -51,4 +69,9 @@ public class Order {
     public double getTotalPrice() {
         return orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
     }
+
+    public void setOrderNr(int orderNr) {
+        this.orderNr = orderNr;
+    }
 }
+
