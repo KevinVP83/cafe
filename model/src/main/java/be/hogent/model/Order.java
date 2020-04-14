@@ -40,6 +40,8 @@ public class Order {
 
     public int getTableNr() { return tableNr; }
 
+    public void setOrderNr(int orderNr) { this.orderNr = orderNr;}
+
     //constructor
 
     public Order(){}
@@ -70,8 +72,5 @@ public class Order {
         return orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
     }
 
-    public void setOrderNr(int orderNr) {
-        this.orderNr = orderNr;
-    }
 }
 

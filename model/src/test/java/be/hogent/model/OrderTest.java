@@ -59,4 +59,16 @@ class OrderTest {
         Order order5 = new Order(5);
         assertEquals(LocalDate.now(),order5.getDate(),"Order 5 date should be today");
     }
+
+    @Test
+    void getOrderNrTest(){
+        order1.setOrderNr(5);
+        assertEquals(5,order1.getOrderNr(), "getOrderNrTest failed. OrderNr should be 5");
+    }
+
+    @Test
+    void getWaiterTest(){
+        order2.setWaiter(wout);
+        assertEquals(wout,order2.getWaiter(), "getWaiterTest failed. Waiter should be Wout");
+    }
 }
