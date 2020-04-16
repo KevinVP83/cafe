@@ -14,8 +14,12 @@ public class OrderItem {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
+    public void increaseQuantity(int quantity) {
         this.quantity += quantity;
+    }
+
+    public void decreaseQuantity(int quantity){
+        this.quantity -= quantity;
     }
 
     public Beverage getBeverage() {

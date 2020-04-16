@@ -33,7 +33,7 @@ public class Table {
     }
 
     public void clearTable(){
-        order.getOrderItems().clear();
+        order = null;
         assignedWaiter = null;
         logger.debug(this.toString() + " successfully cleared");
     }

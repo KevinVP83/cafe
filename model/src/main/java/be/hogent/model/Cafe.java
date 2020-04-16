@@ -126,14 +126,31 @@ public class Cafe {
             assignWaiter(activeTable);
             activeTable.getOrder().setWaiter(loggedOnWaiter);
             activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
+            logger.info(activeTable.toString() + " order successfully created by " + loggedOnWaiter.toString() + "!");
         }
         else{
             if (activeTable.getAssignedWaiter().equals(loggedOnWaiter)){
                 activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
-                logger.info(activeTable.toString() + " order successfully created by " + loggedOnWaiter.toString() + "!");
+                logger.info(activeTable.toString() + " order successfully updated by " + loggedOnWaiter.toString() + "!");
             }
             else {
                 logger.error("Error placing order on table " + activeTable.getTableNr() + " Other waiter assigned to this table!");
+                throw new alreadyOtherWaiterAssignedException("Other waiter assigned to this table!");
+            }
+        }
+    }
+
+    public void removeOrder(Beverage beverage, int qty)throws alreadyOtherWaiterAssignedException{
+        if (activeTable.getOrder()==null){
+            logger.error("No orders to found delete!");
+        }
+        else{
+            if (activeTable.getAssignedWaiter().equals(loggedOnWaiter)){
+                activeTable.getOrder().removeOrderItem(new OrderItem(beverage,qty));
+                logger.info(activeTable.toString() + " order successfully removed by " + loggedOnWaiter.toString() + "!");
+            }
+            else {
+                logger.error("Error removing order on table " + activeTable.getTableNr() + " Other waiter assigned to this table!");
                 throw new alreadyOtherWaiterAssignedException("Other waiter assigned to this table!");
             }
         }

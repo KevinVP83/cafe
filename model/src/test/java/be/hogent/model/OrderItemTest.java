@@ -38,10 +38,14 @@ class OrderItemTest {
 
     @Test
     void setQuantityTest() {
-        orderItem2.setQuantity(1);
+        orderItem2.increaseQuantity(1);
         assertEquals(3,orderItem2.getQuantity(),"orderitem 2 quantity should be 3");
-        orderItem3.setQuantity(4);
+        orderItem3.increaseQuantity(4);
         assertEquals(7,orderItem3.getQuantity(),"orderitem 3 quantity should be 7");
+        orderItem3.decreaseQuantity(2);
+        assertEquals(5,orderItem3.getQuantity(),"orderitem 3 quantity should be 5");
+        orderItem3.decreaseQuantity(7);
+        assertEquals(-2,orderItem3.getQuantity(),"orderitem 3 quantity should still be 5");
     }
 
     @Test
@@ -53,10 +57,10 @@ class OrderItemTest {
     @Test
     void getPriceTest() {
         assertEquals(2.40,orderItem1.getPrice(),"getPrice test 1 failed");
-        orderItem1.setQuantity(3);
+        orderItem1.increaseQuantity(3);
         assertEquals(9.60,orderItem1.getPrice(),"getPrice test 2 failed");
         assertEquals(12.80,orderItem4.getPrice(),"getPrice test 3 failed");
-        orderItem4.setQuantity(4);
+        orderItem4.increaseQuantity(4);
         assertEquals(25.60,orderItem4.getPrice(),"getPrice test 4 failed");
     }
 

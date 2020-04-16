@@ -15,8 +15,4 @@ public class DAOException extends Exception {
     public String getMessage() {
         return message;
     }
-
-    public String toString() {
-        return message;
-    }
 }

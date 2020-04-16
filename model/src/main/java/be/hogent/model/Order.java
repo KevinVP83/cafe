@@ -56,13 +56,32 @@ public class Order {
     public void addOrderItem(OrderItem orderItem){
         if(!(orderItems.contains(orderItem))){
             orderItems.add(orderItem);
-            logger.info("OrderItem successfully created for table " + tableNr + "!");
+            logger.info("OrderItem successfully created for table " + getTableNr() + "!");
         }
         else {
             for (OrderItem o: orderItems) {
                 if (orderItem.equals(o)){
-                    o.setQuantity(orderItem.getQuantity());
-                    logger.info("OrderItem successfully updated for table " + tableNr + "!");
+                    o.increaseQuantity(orderItem.getQuantity());
+                    logger.info("OrderItem successfully updated for table " + getTableNr() + "!");
+                }
+            }
+        }
+    }
+
+    public void removeOrderItem(OrderItem orderItem){
+        if(!(orderItems.contains(orderItem))){
+            logger.error("No such beverage found for table " + getTableNr() + "!");
+        }
+        else {
+            for (OrderItem o: orderItems) {
+                if (orderItem.equals(o)){
+                    if(o.getQuantity()<orderItem.getQuantity()){
+                        logger.error("No such amount of  " + o.getBeverage().toString() + " found!");
+                    }
+                    else {
+                        o.decreaseQuantity(orderItem.getQuantity());
+                        logger.info("OrderItem successfully updated for table " + getTableNr() + "!");
+                    }
                 }
             }
         }

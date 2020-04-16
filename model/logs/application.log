@@ -1,1650 +1,372 @@
-[INFO ] 2020-04-14 07:41:30.336 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:41:30.336 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:41:30.340 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:41:30.340 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:41:30.342 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:41:30.342 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:43:38.826 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:43:38.826 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:43:38.835 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:43:38.835 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:43:38.838 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:43:38.838 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:45:39.609 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.609 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.713 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.713 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.772 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.772 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.773 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.773 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.775 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 07:45:39.775 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 07:45:39.775 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 07:45:39.775 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 07:45:39.775 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 07:45:39.775 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 07:45:39.834 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.834 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.835 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.835 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.840 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:45:39.840 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:45:39.893 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.893 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.938 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.938 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.986 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.986 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:39.987 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.987 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:45:39.987 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:45:39.987 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:45:40.036 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:40.036 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:40.082 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:45:40.082 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.896 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.896 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.950 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.950 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.979 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.979 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:06.979 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:06.979 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:06.980 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 07:46:06.980 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 07:46:06.981 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 07:46:06.981 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 07:46:06.981 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 07:46:06.981 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 07:46:07.017 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.017 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.017 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:07.017 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:07.020 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:46:07.020 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:46:07.063 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.063 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.085 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.085 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.114 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.114 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.114 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:07.114 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:46:07.115 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:46:07.115 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:46:07.147 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.147 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.176 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:46:07.176 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:47:44.888 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:47:44.888 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:47:44.890 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:47:44.890 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:47:44.893 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:47:44.893 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:49:08.955 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:49:08.955 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:50:39.930 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:50:39.930 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:51:12.049 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:51:12.049 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:58:53.021 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:58:53.021 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 07:59:11.265 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:59:11.265 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 07:59:18.308 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 07:59:18.308 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:00:10.976 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:00:10.976 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:00:10.978 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:00:10.978 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:00:10.981 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:00:10.981 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:05:07.181 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:05:07.181 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:05:07.183 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:05:07.183 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:05:07.186 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:05:07.186 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:05:07.189 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:05:07.189 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:05:07.190 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:05:07.190 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 08:05:07.190 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 08:05:07.190 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 08:05:32.627 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:05:32.627 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:05:32.630 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:05:32.630 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:05:32.632 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:05:32.632 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.030 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.030 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.081 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.081 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.112 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.112 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.113 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.113 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.114 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:18:53.114 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:18:53.114 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:18:53.114 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 08:18:53.114 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 08:18:53.114 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 08:18:53.147 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.147 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.148 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.148 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:18:53.151 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 08:18:53.151 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 08:18:53.151 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.189 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.189 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.224 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.224 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.261 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.261 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.261 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.261 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:18:53.274 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.274 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:18:53.275 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:18:53.275 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:18:53.276 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:18:53.276 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:18:53.306 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.306 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.341 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:18:53.341 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:28:34.885 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:28:34.885 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:28:34.887 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:28:34.887 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:28:34.902 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:28:34.902 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:28:34.904 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:28:34.904 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:28:34.906 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:28:34.906 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:29:20.594 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.594 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.628 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.628 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.658 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.658 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.658 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.658 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.659 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:29:20.659 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:29:20.659 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:29:20.659 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 08:29:20.659 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 08:29:20.659 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 08:29:20.687 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.687 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.687 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.687 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.689 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:29:20.689 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:29:20.690 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:29:20.690 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:29:20.690 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:29:20.690 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 08:29:20.690 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 08:29:20.690 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 08:29:20.717 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.717 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.743 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.743 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.767 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.767 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.767 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.767 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:29:20.778 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:29:20.778 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:29:20.779 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:29:20.779 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:29:20.779 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:29:20.779 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:29:20.810 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.810 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.834 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:29:20.834 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:34:57.409 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:34:57.409 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:34:57.411 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:34:57.411 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:34:57.424 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:34:57.424 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:34:57.426 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:34:57.426 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:34:57.428 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:34:57.428 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:34:57.433 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:34:57.433 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.174 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:39:39.174 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:39:39.175 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:39:39.175 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:39:39.190 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:39:39.190 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:39:39.192 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.192 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.194 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.194 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:39:39.199 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:39:39.200 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 08:39:39.200 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 08:51:40.786 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.786 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.840 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.840 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.841 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.841 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.854 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:51:40.854 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:51:40.856 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.856 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.856 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.856 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 08:51:40.859 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 08:51:40.860 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 08:51:40.860 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 08:51:40.894 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.894 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.924 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.924 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.924 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.924 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.926 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:51:40.926 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:51:40.926 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:51:40.926 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 08:51:40.926 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 08:51:40.926 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:51:40.956 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:51:40.957 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:51:40.957 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 08:51:40.957 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 08:51:40.957 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 08:51:40.981 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:40.981 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:41.009 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:41.009 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:41.042 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:51:41.042 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:52:51.945 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:52:51.945 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:52:51.946 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:52:51.946 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:52:51.959 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:52:51.959 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:52:51.960 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.960 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.962 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.962 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 08:52:51.965 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 08:52:51.965 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 08:52:51.965 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 08:52:51.966 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 08:52:51.966 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 08:52:51.966 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:52:51.966 [main] Cafe - Wouter Peters successfully logged on!
-[ERROR] 2020-04-14 08:52:52.018 [main] Cafe - Table 7 pay failed
-[ERROR] 2020-04-14 08:52:52.018 [main] Cafe - Table 7 pay failed
-[DEBUG] 2020-04-14 08:52:52.018 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 08:52:52.018 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 08:52:52.019 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 08:52:52.019 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 08:53:13.615 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.615 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.655 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.655 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.656 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.656 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.669 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:53:13.669 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:53:13.670 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.670 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.671 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.671 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.673 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.673 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 08:53:13.674 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 08:53:13.674 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 08:53:13.674 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 08:53:13.675 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.675 [main] Cafe - Wouter Peters successfully logged on!
-[ERROR] 2020-04-14 08:53:13.712 [main] Cafe - Table 7 pay failed
-[ERROR] 2020-04-14 08:53:13.712 [main] Cafe - Table 7 pay failed
-[DEBUG] 2020-04-14 08:53:13.713 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 08:53:13.713 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 08:53:13.713 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 08:53:13.713 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 08:53:13.739 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.739 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.769 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.769 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.770 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.770 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.771 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:53:13.771 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 08:53:13.771 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:53:13.771 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 08:53:13.771 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 08:53:13.771 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:53:13.799 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 08:53:13.800 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:53:13.800 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 08:53:13.800 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 08:53:13.800 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 08:53:13.800 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 08:53:13.800 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 08:53:13.828 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.828 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.856 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.856 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.885 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 08:53:13.885 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:15.966 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:15.966 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.007 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.007 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.008 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.008 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.021 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:22:16.021 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:22:16.022 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.022 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.022 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.022 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 09:22:16.025 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 09:22:16.026 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 09:22:16.026 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 09:22:16.026 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 09:22:16.026 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 09:22:16.026 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.026 [main] Cafe - Wouter Peters successfully logged on!
-[ERROR] 2020-04-14 09:22:16.055 [main] Cafe - Table 7 pay failed
-[ERROR] 2020-04-14 09:22:16.055 [main] Cafe - Table 7 pay failed
-[DEBUG] 2020-04-14 09:22:16.055 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 09:22:16.055 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 09:22:16.055 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 09:22:16.055 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 09:22:16.089 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.089 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.116 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.116 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.117 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.117 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.117 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 09:22:16.117 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 09:22:16.118 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:22:16.118 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 09:22:16.118 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 09:22:16.118 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 09:22:16.143 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.143 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.143 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.143 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:22:16.144 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 09:22:16.144 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 09:22:16.144 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 09:22:16.169 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.169 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.200 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.200 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.227 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:22:16.227 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.574 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.574 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.629 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.629 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.630 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.630 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.641 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:48:28.641 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:48:28.643 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.643 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.643 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.643 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Table 7 order successfully created by Wouter Peters!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 09:48:28.647 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 09:48:28.648 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 09:48:28.648 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 09:48:28.648 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 09:48:28.648 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 09:48:28.648 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.648 [main] Cafe - Wouter Peters successfully logged on!
-[ERROR] 2020-04-14 09:48:28.683 [main] Cafe - Table 7 pay failed
-[ERROR] 2020-04-14 09:48:28.683 [main] Cafe - Table 7 pay failed
-[DEBUG] 2020-04-14 09:48:28.684 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 09:48:28.684 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 09:48:28.684 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 09:48:28.684 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 09:48:28.714 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.714 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.748 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.748 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.749 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.749 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.750 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 09:48:28.750 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 09:48:28.750 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:48:28.750 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 09:48:28.751 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 09:48:28.751 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 09:48:28.777 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 09:48:28.778 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 09:48:28.778 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 09:48:28.806 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.806 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.833 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.833 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.863 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 09:48:28.863 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.384 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.384 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.445 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.445 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.446 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.446 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.466 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:01:11.466 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:01:11.467 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.467 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.468 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.468 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.472 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.472 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:01:11.472 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:01:11.472 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:01:11.473 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:01:11.473 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.473 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:01:11.520 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:01:11.520 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:01:11.520 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:01:11.520 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:01:11.563 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.563 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.624 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.624 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.624 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.624 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.626 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:01:11.626 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:01:11.626 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:01:11.626 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:01:11.626 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:01:11.626 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:01:11.665 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.665 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:01:11.666 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:01:11.666 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:01:11.666 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:01:11.710 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.710 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.748 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.748 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.783 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:01:11.783 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.614 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.614 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.652 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.652 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.653 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.653 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.665 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:03:08.665 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:03:08.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.670 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.670 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:03:08.671 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:03:08.671 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:03:08.671 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:03:08.672 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.672 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:03:08.698 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:03:08.698 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:03:08.698 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:03:08.698 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:03:08.731 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.731 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.762 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.762 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.762 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.762 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.763 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:03:08.763 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:03:08.763 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:03:08.763 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:03:08.764 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:03:08.764 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:03:08.791 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:03:08.791 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:03:08.791 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:03:08.820 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.820 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.849 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.849 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.874 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:03:08.874 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.608 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.608 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.650 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.650 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.651 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.651 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.663 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:20:32.663 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:20:32.665 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.665 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.665 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.665 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.667 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:20:32.668 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:20:32.668 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.668 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:20:32.697 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:20:32.697 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:20:32.697 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:20:32.697 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:20:32.726 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.726 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.755 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.755 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.756 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.756 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.757 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:20:32.757 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:20:32.757 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:20:32.757 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:20:32.757 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:20:32.757 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:20:32.783 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:20:32.784 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:20:32.784 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:20:32.809 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.809 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.837 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.837 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.863 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:20:32.863 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.799 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.799 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.838 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.838 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.839 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:26.839 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:26.850 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:28:26.850 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:28:26.864 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.864 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.864 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.864 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:28:26.867 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:28:26.868 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:28:26.868 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:26.868 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:28:26.905 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:28:26.905 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:28:26.905 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:28:26.905 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:28:26.955 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:26.955 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.001 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.001 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.001 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:27.001 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:27.002 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:28:27.002 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:28:27.002 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:28:27.002 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:28:27.002 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:28:27.002 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:28:27.027 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:28:27.028 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:28:27.028 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:28:27.056 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.056 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.096 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.096 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.122 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:28:27.122 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.137 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.137 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.172 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.172 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.173 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.173 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.186 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:29:21.186 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:29:21.194 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.194 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.195 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.195 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:29:21.198 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:29:21.199 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:29:21.199 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:29:21.199 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:29:21.199 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:29:21.199 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.199 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:29:21.221 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:29:21.221 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:29:21.221 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:29:21.221 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:29:21.255 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.255 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.283 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.283 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.283 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.283 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.284 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:29:21.284 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:29:21.284 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:29:21.284 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:29:21.284 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:29:21.284 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:29:21.318 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.318 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:29:21.319 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:29:21.319 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:29:21.319 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:29:21.352 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.352 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.380 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.380 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.412 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:29:21.412 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:20.567 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.567 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.569 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.569 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.574 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:20.574 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:20.577 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.577 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.577 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.577 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:20.578 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:20.578 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:33.634 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.634 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.663 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.663 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.664 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.664 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.676 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:36:33.676 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:36:33.678 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 10:36:33.678 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 10:36:33.678 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.678 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.678 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 10:36:33.678 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 10:36:33.678 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.678 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.681 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 10:36:33.681 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 10:36:33.681 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.681 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:36:33.682 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 10:36:33.682 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[INFO ] 2020-04-14 10:36:33.682 [main] Cafe - Table 7 order successfully created by Nathan Segers!
-[ERROR] 2020-04-14 10:36:33.682 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 10:36:33.682 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 10:36:33.683 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:36:33.683 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 10:36:33.683 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.683 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 10:36:33.713 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 10:36:33.713 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 10:36:33.713 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:36:33.713 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 10:36:33.750 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.750 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.778 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.778 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.779 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.779 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.779 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:36:33.779 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 10:36:33.780 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:36:33.780 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 10:36:33.780 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 10:36:33.780 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 10:36:33.804 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.804 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 10:36:33.805 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 10:36:33.805 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 10:36:33.805 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 10:36:33.830 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.830 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.859 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.859 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.887 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.887 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 10:36:33.922 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.922 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.922 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.922 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.923 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 10:36:33.924 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 10:36:33.924 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:02:50.279 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.279 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.323 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.323 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.324 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.324 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.336 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:02:50.336 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:02:50.376 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.376 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.411 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.411 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.412 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.412 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.413 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 11:02:50.413 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 11:02:50.414 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:02:50.414 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 11:02:50.414 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 11:02:50.414 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 11:02:50.445 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.445 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.445 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.445 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 11:02:50.446 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 11:02:50.446 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 11:02:50.446 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 11:02:50.476 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.476 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.507 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.507 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.543 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.543 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:02:50.598 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.598 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.598 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.598 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.602 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:02:50.602 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:02:50.603 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.603 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.603 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.603 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:02:50.604 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:02:50.604 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:05:23.580 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:05:23.580 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:05:23.583 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:05:23.583 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:09:44.733 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:09:44.733 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.258 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.258 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.300 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.300 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.301 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.301 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.315 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.315 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.317 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 11:11:22.317 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 11:11:22.317 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 11:11:22.317 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 11:11:22.317 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 11:11:22.317 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 11:11:22.320 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 11:11:22.320 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 11:11:22.320 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 11:11:22.321 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 11:11:22.321 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 11:11:22.321 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 11:11:22.321 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 11:11:22.321 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 11:11:22.321 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 11:11:22.321 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.321 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 11:11:22.346 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 11:11:22.346 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 11:11:22.346 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 11:11:22.346 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 11:11:22.388 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.388 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.416 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.416 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.416 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.416 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.418 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 11:11:22.418 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 11:11:22.418 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:11:22.418 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 11:11:22.418 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 11:11:22.418 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 11:11:22.442 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 11:11:22.443 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 11:11:22.443 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 11:11:22.470 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.470 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.496 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.496 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.526 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.526 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:11:22.560 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 11:11:22.561 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:32:40.851 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.851 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.883 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.883 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.884 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:40.884 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:40.896 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:32:40.896 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:32:40.898 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:32:40.898 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:32:40.899 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:32:40.899 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:32:40.899 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:32:40.899 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:32:40.901 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:32:40.901 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:32:40.901 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:32:40.901 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:32:40.902 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:32:40.902 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:32:40.902 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:32:40.902 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:40.902 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 14:32:40.928 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 14:32:40.928 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 14:32:40.928 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:32:40.928 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:32:40.964 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.964 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.993 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.993 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:40.993 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:40.993 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:40.994 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:32:40.994 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:32:40.995 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:32:40.995 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 14:32:40.995 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 14:32:40.995 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:32:41.020 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:32:41.021 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 14:32:41.021 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 14:32:41.049 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.049 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.076 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.076 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.100 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.100 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:32:41.150 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:32:41.151 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.151 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.151 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.151 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:32:41.152 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:32:41.152 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:33:51.884 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:51.884 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:51.919 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:51.919 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:51.919 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:51.919 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:51.933 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:33:51.933 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:33:51.936 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:33:51.936 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:33:51.936 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:33:51.936 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:33:51.937 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:33:51.937 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:33:51.939 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:33:51.939 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:33:51.940 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:33:51.940 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:33:51.940 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:33:51.940 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:51.940 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 14:33:51.962 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 14:33:51.962 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 14:33:51.962 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:33:51.962 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:33:51.998 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:51.998 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.032 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.032 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.032 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:52.032 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:52.033 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:33:52.033 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:33:52.033 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:33:52.033 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 14:33:52.033 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 14:33:52.033 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:33:52.060 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:33:52.061 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:33:52.061 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:33:52.061 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:33:52.061 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:33:52.061 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 14:33:52.061 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 14:33:52.090 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.090 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.116 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.116 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.151 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.151 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:33:52.239 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.239 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.239 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.239 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.240 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:33:52.241 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:33:52.241 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:36:40.032 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.032 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.070 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.070 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.071 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.071 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.083 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:36:40.083 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:36:40.086 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:36:40.086 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:36:40.086 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:36:40.086 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 14:36:40.086 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:36:40.086 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:36:40.090 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:36:40.090 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:36:40.090 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:36:40.090 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:36:40.090 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 14:36:40.090 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:36:40.090 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 14:36:40.091 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.091 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 14:36:40.114 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 14:36:40.114 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 14:36:40.115 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:36:40.115 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 14:36:40.154 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.154 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.185 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.185 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.185 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.185 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.186 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:36:40.186 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 14:36:40.186 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:36:40.186 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 14:36:40.186 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 14:36:40.186 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:36:40.214 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 14:36:40.215 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:36:40.215 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 14:36:40.215 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 14:36:40.215 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 14:36:40.215 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 14:36:40.215 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 14:36:40.243 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.243 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.274 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.274 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.303 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.303 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:36:40.392 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 14:36:40.393 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:24:28.754 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.754 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.802 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.802 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.803 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.803 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.814 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:24:28.814 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:24:28.816 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:24:28.816 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:24:28.817 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:24:28.817 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:24:28.817 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:24:28.817 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:24:28.819 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:24:28.819 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:24:28.819 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:24:28.819 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:24:28.820 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:24:28.820 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:24:28.820 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:24:28.820 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.820 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 15:24:28.843 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 15:24:28.843 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 15:24:28.843 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:24:28.843 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:24:28.883 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.883 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.919 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.919 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.919 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.919 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.920 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:24:28.920 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:24:28.920 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:24:28.920 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 15:24:28.920 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 15:24:28.920 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 15:24:28.959 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.959 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:24:28.960 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:24:28.960 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 15:24:28.960 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 15:24:28.994 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:28.994 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:29.036 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:29.036 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:29.072 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:29.072 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:24:29.178 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.178 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.179 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.179 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.179 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:24:29.179 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:24:29.180 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:17.403 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.403 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.447 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.447 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.448 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.448 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.461 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:17.461 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:17.463 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:17.463 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:17.463 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:26:17.463 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:26:17.463 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:17.463 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:17.466 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:17.466 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:17.466 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:17.466 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:26:17.467 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:17.467 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:17.467 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:17.467 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.467 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 15:26:17.489 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 15:26:17.489 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 15:26:17.490 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:26:17.490 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:26:17.536 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.536 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.584 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.584 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.585 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.585 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.586 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:26:17.586 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:26:17.586 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:17.586 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 15:26:17.586 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 15:26:17.586 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 15:26:17.627 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.627 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.627 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.627 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:26:17.628 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:26:17.628 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 15:26:17.628 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 15:26:17.672 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.672 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.713 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.713 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.757 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.757 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:17.864 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:17.865 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:53.081 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.081 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.119 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.119 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.120 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.120 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.132 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:53.132 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:53.135 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:53.135 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:53.135 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:26:53.135 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:26:53.135 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:53.135 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:53.139 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:53.139 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:26:53.139 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:26:53.140 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:53.140 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:53.140 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:26:53.140 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 15:26:53.140 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:26:53.140 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:26:53.140 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.140 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 15:26:53.174 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 15:26:53.174 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 15:26:53.174 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:26:53.174 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:26:53.214 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.214 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.253 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.253 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.253 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.253 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.254 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:26:53.254 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:26:53.254 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:53.254 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 15:26:53.254 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 15:26:53.254 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:26:53.296 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:26:53.296 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 15:26:53.296 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 15:26:53.341 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.341 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.384 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.384 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.422 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.422 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:26:53.531 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.531 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.531 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.531 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.532 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:26:53.533 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:26:53.533 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:36:38.736 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.736 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.784 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.784 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.785 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.785 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.797 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:36:38.797 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:36:38.800 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:36:38.800 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:36:38.800 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:36:38.800 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:36:38.800 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:36:38.800 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:36:38.803 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:36:38.803 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:36:38.803 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:36:38.803 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:36:38.803 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:36:38.804 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:36:38.804 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 15:36:38.804 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:36:38.804 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:36:38.804 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.804 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 15:36:38.826 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 15:36:38.826 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 15:36:38.826 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:36:38.826 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:36:38.872 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.872 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.913 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.913 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.913 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.913 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.914 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:36:38.914 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:36:38.915 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:36:38.915 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 15:36:38.915 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 15:36:38.915 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:36:38.959 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:36:38.960 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:36:38.960 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:36:38.960 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 15:36:38.960 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 15:36:38.996 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:38.996 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:39.039 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:39.039 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:39.080 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:39.080 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:36:39.182 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.182 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.182 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.182 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.183 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:36:39.183 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:36:39.183 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.183 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.184 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.184 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:36:39.184 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:36:39.184 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:39:21.537 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.537 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.580 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.580 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.580 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.580 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.593 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:39:21.593 [main] Cafe - Wout Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:39:21.595 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:39:21.595 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:39:21.595 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:39:21.595 [main] Order - OrderItem successfully updated for table 7!
-[INFO ] 2020-04-14 15:39:21.596 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:39:21.596 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:39:21.598 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:39:21.598 [main] Order - OrderItem successfully created for table 7!
-[INFO ] 2020-04-14 15:39:21.598 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:39:21.598 [main] Cafe - Table 7 order successfully created by Wout Peters!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Wout Peters successfully logged off!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:39:21.599 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:39:21.599 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:39:21.599 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[ERROR] 2020-04-14 15:39:21.599 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Nathan Segers successfully logged off!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Wout Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.599 [main] Cafe - Wout Peters successfully logged on!
-[DEBUG] 2020-04-14 15:39:21.635 [main] Table - Table 7 successfully cleared
-[DEBUG] 2020-04-14 15:39:21.635 [main] Table - Table 7 successfully cleared
-[INFO ] 2020-04-14 15:39:21.635 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:39:21.635 [main] Cafe - Table 7 successfully payed the bill !
-[INFO ] 2020-04-14 15:39:21.676 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.676 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.716 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.716 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.717 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.717 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.718 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:39:21.718 [main] Cafe - Login failed! There is already another user logged on!
-[INFO ] 2020-04-14 15:39:21.718 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:39:21.718 [main] Cafe - Wouter Peters successfully logged off!
-[ERROR] 2020-04-14 15:39:21.718 [main] Cafe - Error logging in. Combination of username and password not found!
-[ERROR] 2020-04-14 15:39:21.718 [main] Cafe - Error logging in. Combination of username and password not found!
-[INFO ] 2020-04-14 15:39:21.755 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.755 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.755 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.755 [main] Cafe - Wouter Peters successfully logged on!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Wouter Peters successfully assigned to Table 7!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Wouter Peters successfully logged off!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Nathan Segers successfully logged on!
-[INFO ] 2020-04-14 15:39:21.756 [main] Cafe - Nathan Segers successfully logged on!
-[ERROR] 2020-04-14 15:39:21.756 [main] Cafe - There is already another waiter assigned to Table 7!
-[ERROR] 2020-04-14 15:39:21.756 [main] Cafe - There is already another waiter assigned to Table 7!
-[INFO ] 2020-04-14 15:39:21.792 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.792 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.826 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.826 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.862 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.862 [main] Cafe - Cafe successfully initialized. 
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:39:21.965 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully created for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully updated for table 0!
-[INFO ] 2020-04-14 15:39:21.966 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 07:37:44.781 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.781 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.832 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.832 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.833 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:44.833 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:44.846 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 07:37:44.846 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 07:37:44.849 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 07:37:44.849 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 07:37:44.849 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 07:37:44.849 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 07:37:44.849 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 07:37:44.849 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 07:37:44.856 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 07:37:44.856 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 07:37:44.856 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 07:37:44.856 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 07:37:44.856 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 07:37:44.856 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 07:37:44.857 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 07:37:44.857 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 07:37:44.857 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 07:37:44.857 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:44.857 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 07:37:44.884 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 07:37:44.884 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 07:37:44.885 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 07:37:44.885 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 07:37:44.928 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.928 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.977 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.977 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:44.977 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:44.977 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:44.978 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 07:37:44.978 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 07:37:44.979 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 07:37:44.979 [main] Cafe - Wouter Peters successfully logged off!
+[ERROR] 2020-04-16 07:37:44.979 [main] Cafe - Error logging in. Combination of username and password not found!
+[ERROR] 2020-04-16 07:37:44.979 [main] Cafe - Error logging in. Combination of username and password not found!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 07:37:45.026 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 07:37:45.027 [main] Cafe - There is already another waiter assigned to Table 7!
+[ERROR] 2020-04-16 07:37:45.027 [main] Cafe - There is already another waiter assigned to Table 7!
+[INFO ] 2020-04-16 07:37:45.073 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.073 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.119 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.119 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.168 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.168 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 07:37:45.273 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.273 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.274 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.274 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.274 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 07:37:45.274 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 07:37:45.275 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:22:13.513 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:13.513 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:13.515 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:22:13.515 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:22:21.721 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:21.721 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:21.722 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:21.722 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:22:21.724 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:22:21.724 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:23:02.894 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:23:02.894 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:23:02.896 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:23:02.896 [main] Order - OrderItem successfully updated for table 0!
+[ERROR] 2020-04-16 08:23:02.898 [main] Order - No such amount of  be.hogent.model.Beverage@176b3f44 found!
+[ERROR] 2020-04-16 08:23:02.898 [main] Order - No such amount of  be.hogent.model.Beverage@176b3f44 found!
+[INFO ] 2020-04-16 08:28:06.859 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:06.859 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:06.925 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:06.925 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:06.926 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:06.926 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:06.939 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:28:06.939 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:28:06.941 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:28:06.941 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:28:06.941 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:28:06.941 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:28:06.941 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:28:06.941 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:28:06.944 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:28:06.944 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:28:06.944 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:28:06.944 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:28:06.944 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:28:06.945 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:28:06.945 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 08:28:06.945 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:28:06.945 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:28:06.945 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:06.945 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 08:28:06.971 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 08:28:06.971 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 08:28:06.971 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:28:06.971 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:28:07.017 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.017 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.053 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.053 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.053 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:07.053 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:07.054 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 08:28:07.054 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 08:28:07.054 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:28:07.054 [main] Cafe - Wouter Peters successfully logged off!
+[ERROR] 2020-04-16 08:28:07.054 [main] Cafe - Error logging in. Combination of username and password not found!
+[ERROR] 2020-04-16 08:28:07.054 [main] Cafe - Error logging in. Combination of username and password not found!
+[INFO ] 2020-04-16 08:28:07.090 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.090 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.090 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:07.090 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:28:07.091 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:28:07.091 [main] Cafe - There is already another waiter assigned to Table 7!
+[ERROR] 2020-04-16 08:28:07.091 [main] Cafe - There is already another waiter assigned to Table 7!
+[INFO ] 2020-04-16 08:28:07.135 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.135 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.174 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.174 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.212 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.212 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:28:07.299 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:28:07.300 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:28:07.301 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.301 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:28:07.301 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:28:07.301 [main] Order - OrderItem successfully updated for table 0!
+[ERROR] 2020-04-16 08:28:07.301 [main] Order - No such amount of  be.hogent.model.Beverage@5c41d037 found!
+[ERROR] 2020-04-16 08:28:07.301 [main] Order - No such amount of  be.hogent.model.Beverage@5c41d037 found!
+[INFO ] 2020-04-16 08:53:50.262 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:53:50.262 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:53:50.265 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:53:50.265 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:53:50.280 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:53:50.280 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:53:50.282 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:53:50.282 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:53:50.282 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.282 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.284 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:53:50.284 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:53:50.285 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.285 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.288 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:53:50.288 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:53:50.289 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:53:50.289 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:53:50.289 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:53:50.290 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:53:50.290 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 08:53:50.290 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:53:50.290 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:53:50.290 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:53:50.290 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 08:53:50.325 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 08:53:50.325 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 08:53:50.325 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:53:50.325 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:55:22.687 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:55:22.687 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:55:22.689 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:55:22.689 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:55:22.707 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:55:22.707 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:55:22.709 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:55:22.709 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:55:22.710 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.710 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.712 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:55:22.712 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:55:22.712 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.712 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.716 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:55:22.716 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:55:22.717 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:55:22.717 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:55:22.717 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:55:22.718 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:55:22.718 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 08:55:22.718 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:55:22.718 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:55:22.718 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:55:22.718 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 08:55:22.742 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 08:55:22.742 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 08:55:22.742 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:55:22.742 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:58:51.131 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:58:51.131 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:58:51.133 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:58:51.133 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:58:51.149 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:58:51.149 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:58:51.151 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:58:51.151 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:58:51.152 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.152 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.154 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:58:51.154 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:58:51.154 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.154 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.158 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:58:51.158 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:58:51.158 [main] Cafe - Table 7 order successfully removed by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.158 [main] Cafe - Table 7 order successfully removed by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.158 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:58:51.158 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:58:51.158 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.158 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:58:51.159 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:58:51.159 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:58:51.159 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:58:51.159 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:58:51.159 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:58:51.159 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:58:51.160 [main] Cafe - Error removing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:58:51.160 [main] Cafe - Error removing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:58:51.160 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:58:51.160 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 08:58:51.160 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:58:51.160 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:58:51.160 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:58:51.160 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 08:58:51.185 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 08:58:51.185 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 08:58:51.185 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:58:51.185 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:59:10.057 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.057 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.110 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.110 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.162 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.162 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.163 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.163 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.164 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 08:59:10.164 [main] Cafe - Login failed! There is already another user logged on!
+[INFO ] 2020-04-16 08:59:10.165 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:59:10.165 [main] Cafe - Wouter Peters successfully logged off!
+[ERROR] 2020-04-16 08:59:10.165 [main] Cafe - Error logging in. Combination of username and password not found!
+[ERROR] 2020-04-16 08:59:10.165 [main] Cafe - Error logging in. Combination of username and password not found!
+[INFO ] 2020-04-16 08:59:10.203 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.203 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.203 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.203 [main] Cafe - Wouter Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Wouter Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Wouter Peters successfully logged off!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:59:10.205 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:59:10.206 [main] Cafe - There is already another waiter assigned to Table 7!
+[ERROR] 2020-04-16 08:59:10.206 [main] Cafe - There is already another waiter assigned to Table 7!
+[INFO ] 2020-04-16 08:59:10.245 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.245 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.280 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.280 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.318 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.318 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.319 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.319 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.331 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:59:10.331 [main] Cafe - Wout Peters successfully assigned to Table 7!
+[INFO ] 2020-04-16 08:59:10.334 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:59:10.334 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:59:10.335 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.335 [main] Cafe - Table 7 order successfully created by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.335 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:59:10.335 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:59:10.335 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.335 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.340 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:59:10.340 [main] Order - OrderItem successfully updated for table 7!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Table 7 order successfully removed by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Table 7 order successfully removed by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.340 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:59:10.340 [main] Order - OrderItem successfully created for table 7!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Table 7 order successfully updated by Wout Peters!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Wout Peters successfully logged off!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Nathan Segers successfully logged on!
+[INFO ] 2020-04-16 08:59:10.340 [main] Cafe - Nathan Segers successfully logged on!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error placing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error removing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error removing order on table 7 Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[ERROR] 2020-04-16 08:59:10.341 [main] Cafe - Error paying bill Table 7. Other waiter assigned to this table!
+[INFO ] 2020-04-16 08:59:10.341 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:59:10.341 [main] Cafe - Nathan Segers successfully logged off!
+[INFO ] 2020-04-16 08:59:10.341 [main] Cafe - Wout Peters successfully logged on!
+[INFO ] 2020-04-16 08:59:10.341 [main] Cafe - Wout Peters successfully logged on!
+[DEBUG] 2020-04-16 08:59:10.362 [main] Table - Table 7 successfully cleared
+[DEBUG] 2020-04-16 08:59:10.362 [main] Table - Table 7 successfully cleared
+[INFO ] 2020-04-16 08:59:10.362 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:59:10.362 [main] Cafe - Table 7 successfully payed the bill !
+[INFO ] 2020-04-16 08:59:10.409 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.409 [main] Cafe - Cafe successfully initialized. 
+[INFO ] 2020-04-16 08:59:10.516 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.516 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.517 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.517 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.517 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:59:10.517 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:59:10.518 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:59:10.519 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.519 [main] Order - OrderItem successfully created for table 0!
+[INFO ] 2020-04-16 08:59:10.519 [main] Order - OrderItem successfully updated for table 0!
+[INFO ] 2020-04-16 08:59:10.519 [main] Order - OrderItem successfully updated for table 0!
+[ERROR] 2020-04-16 08:59:10.519 [main] Order - No such amount of  be.hogent.model.Beverage@1450078a found!
+[ERROR] 2020-04-16 08:59:10.519 [main] Order - No such amount of  be.hogent.model.Beverage@1450078a found!

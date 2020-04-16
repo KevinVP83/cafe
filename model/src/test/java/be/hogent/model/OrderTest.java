@@ -11,6 +11,8 @@ class OrderTest {
 
     private Beverage cola;
     private Beverage latte;
+    private OrderItem orderItem1;
+    private OrderItem orderItem2;
     private Order order1;
     private Order order2;
     private Order order3;
@@ -24,6 +26,8 @@ class OrderTest {
         nathalie = new Waiter(2,"Segers","Nathalie","password");
         cola = new Beverage(1,"Cola",2.40);
         latte = new Beverage(2,"Latte",3.20);
+        orderItem1 = new OrderItem(cola,2);
+        orderItem2 = new OrderItem(latte,3);
         order1 = new Order();
         order2 = new Order();
         order3 = new Order();
@@ -32,11 +36,20 @@ class OrderTest {
 
     @Test
     void addOrderItemTest() {
-        order1.addOrderItem(new OrderItem(cola, 2));
-        order1.addOrderItem(new OrderItem(latte, 3));
+        order1.addOrderItem(orderItem1);
+        order1.addOrderItem(orderItem2);
         assertEquals(2,order1.getOrderItems().size(),"addOrderItemTest 1 failed");
         order1.addOrderItem(new OrderItem(cola, 3));
         assertEquals(2,order1.getOrderItems().size(),"addOrderItemTest 2 should still give 2");
+    }
+
+    @Test
+    void removeOrderItemTest(){
+        order1.addOrderItem(orderItem1);
+        order1.removeOrderItem(new OrderItem(cola,1));
+        assertEquals(1,orderItem1.getQuantity(),"orderItem1 qty should be 1");
+        order1.removeOrderItem(new OrderItem(cola,2));
+        assertEquals(1,orderItem1.getQuantity(),"orderItem1 qty should still be 1");
     }
 
     @Test

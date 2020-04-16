@@ -118,7 +118,7 @@ class CafeTest {
     }
 
     @Test
-    void orderAndPayTest() throws Cafe.alreadyOtherWaiterAssignedException, Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+    void orderRemoveOrderAndPayTest() throws Cafe.alreadyOtherWaiterAssignedException, Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
         cafe.addWaiter(nathan);
         cafe.getTables().add(table7);
         cafe.login("Wout Peters", "password");
@@ -128,6 +128,8 @@ class CafeTest {
         cafe.order(beverage1, 3);
         assertEquals(1, cafe.getActiveTable().getOrder().getOrderItems().size(), "orderTest2 failed. OrderItems should still be 1");
         assertEquals(12.0, cafe.getActiveTable().getOrder().getTotalPrice(), 2, "orderTest2 failed");
+        cafe.removeOrder(beverage1,2);
+        assertEquals(7.2, cafe.getActiveTable().getOrder().getTotalPrice(), 2, "Remove order test failed");
         cafe.order(beverage2, 2);
         assertEquals(2, cafe.getActiveTable().getOrder().getOrderItems().size(), "orderTest3 failed. OrderItems should be 2");
         cafe.logoff();
@@ -139,6 +141,11 @@ class CafeTest {
             Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "orderTest 4 failed. alreadyOtherWaiterAssignedException expected");
         }
         try {
+            cafe.removeOrder(beverage1, 2);
+        } catch (Cafe.alreadyOtherWaiterAssignedException e) {
+            Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "Remove order test 2 failed. alreadyOtherWaiterAssignedException expected");
+        }
+        try {
             cafe.pay(table7);
         } catch (Cafe.alreadyOtherWaiterAssignedException e) {
             Assertions.assertEquals("be.hogent.model.Cafe$alreadyOtherWaiterAssignedException", e.getClass().getName(), "PayTest 1 failed. alreadyOtherWaiterAssignedException expected");
@@ -146,5 +153,6 @@ class CafeTest {
         cafe.logoff();
         cafe.login("Wout Peters", "password");
         cafe.pay(table7);
+        assertNull(table7.getOrder(), "Table 7 order should be null");
     }
 }
