@@ -2,7 +2,6 @@ package be.hogent.model.dao;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -39,7 +38,7 @@ public class BaseDAO implements DAO {
             return DriverManager.getConnection (dbUrl, dbUser, dbPassword);
         } catch (SQLException e) {
             logger.error(e.getMessage());
-            throw new DAOException ();
+            throw new DAOException ("Failed to connect to database!");
         }
     }
 }

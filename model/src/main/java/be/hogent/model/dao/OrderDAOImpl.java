@@ -1,14 +1,10 @@
 package be.hogent.model.dao;
 
-import be.hogent.model.Beverage;
 import be.hogent.model.OrderItem;
 import be.hogent.model.Table;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.sql.*;
-import java.util.HashSet;
-import java.util.Set;
 
 public class OrderDAOImpl extends BaseDAO implements OrderDAO {
 

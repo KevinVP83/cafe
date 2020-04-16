@@ -7,12 +7,6 @@ public class DAOExceptionTest {
 
     @Test
     public void daoExceptionTest(){
-        DAOException e = new DAOException();
-        assertThat(e.getMessage()).isEqualTo("Error in database ");
-    }
-
-    @Test
-    public void daoExceptionWithParameterTest(){
         DAOException e = new DAOException("Constructor test");
         assertThat(e.getMessage()).isEqualTo("Constructor test");
     }
