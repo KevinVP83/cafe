@@ -1,5 +1,6 @@
 package be.hogent.model;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
@@ -8,7 +9,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Order {
     private static Logger logger = LogManager.getLogger(Order.class.getName());
-    private Waiter waiter;
+    private int waiterID;
     private int orderNr;
     private int tableNr;
     private Set<OrderItem> orderItems = new HashSet<>();
@@ -16,39 +17,43 @@ public class Order {
 
     //Getters and Setters
 
-    public Waiter getWaiter() {
-        return waiter;
+    public int getWaiterID() {
+        return waiterID;
     }
 
     public int getOrderNr() {
         return orderNr;
     }
 
-    public Set<OrderItem> getOrderItems() {
-        return orderItems;
-    }
+    public Set<OrderItem> getOrderItems() { return orderItems;}
 
     public LocalDate getDate() {
         return date;
     }
 
-    public void setDate() {
-        this.date = LocalDate.now();
-    }
+    public void setDate() { this.date = LocalDate.now();}
 
-    public void setWaiter(Waiter waiter){ this.waiter = waiter;}
+    public void setWaiterID(Waiter waiter){ this.waiterID = waiter.getWaiterID();}
 
     public int getTableNr() { return tableNr; }
 
     public void setOrderNr(int orderNr) { this.orderNr = orderNr;}
 
-    //constructor
+    public void setTableNr(int tableNr) { this.tableNr = tableNr;}
+
+    //constructors
 
     public Order(){}
 
     public Order(int tableNr){
         setDate();
-        this.tableNr = tableNr;
+        setTableNr(tableNr);
+    }
+
+    public Order(int orderNr, Date date, int waiterID){ //Voor als ik Order uit database haal!
+        this.orderNr = orderNr;
+        this.date = date.toLocalDate();
+        this.waiterID = waiterID;
     }
 
     //Methods

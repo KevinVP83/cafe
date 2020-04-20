@@ -13,6 +13,7 @@ import java.util.Set;
 public class WaiterDAOImpl extends BaseDAO implements WaiterDAO{
 
     private static final String GET_ALL_WAITERS = "SELECT * from waiters";
+
     private final Logger logger = LogManager.getLogger(WaiterDAOImpl.class.getName());
 
     private static WaiterDAOImpl instance = new WaiterDAOImpl();

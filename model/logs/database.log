@@ -1,183 +1,112 @@
-[INFO ] 2020-04-16 07:37:44.719 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.751 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.780 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:44.802 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.818 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.832 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:44.880 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 07:37:44.883 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 07:37:44.901 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.914 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.927 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:44.945 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.960 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:44.976 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:44.992 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.010 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.025 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:45.039 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.058 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.072 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:45.089 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.105 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.119 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:45.131 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.147 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.168 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 07:37:45.183 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 07:37:45.265 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:06.792 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:06.827 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:06.858 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:06.880 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:06.906 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:06.924 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:06.968 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:28:06.970 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:28:06.991 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.003 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.016 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.028 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.040 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.052 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.066 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.078 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.089 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.105 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.121 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.134 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.148 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.161 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.174 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.187 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.200 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.211 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:28:07.226 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:28:07.290 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:53:50.205 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:53:50.230 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:53:50.262 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:53:50.322 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:53:50.324 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:55:22.628 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:55:22.658 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:55:22.687 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:55:22.739 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:55:22.741 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:58:51.070 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:58:51.101 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:58:51.131 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:58:51.182 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:58:51.184 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:59:10.008 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.033 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.057 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.078 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.097 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.110 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.129 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.146 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.162 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.177 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.191 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.203 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.218 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.232 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.245 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.258 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.268 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.280 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.293 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.306 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.318 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.359 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:59:10.361 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 08:59:10.383 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.397 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.408 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 08:59:10.426 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 08:59:10.508 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:34.981 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.006 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.038 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.063 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.088 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.107 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.127 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.147 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.166 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.196 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.215 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.233 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.255 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.273 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.286 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.301 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.315 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.326 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.342 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.356 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.370 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.425 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 09:24:35.427 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 09:24:35.442 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.455 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.470 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 09:24:35.484 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 09:24:35.561 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.481 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.508 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.536 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.552 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.570 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.582 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.596 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.612 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.624 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.641 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.653 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.664 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.682 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.698 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.710 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.726 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.739 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.752 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.767 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.780 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.796 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.844 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 12:48:57.847 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 12:48:57.860 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.871 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.881 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:48:57.896 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:48:57.965 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.525 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.556 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.581 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.599 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.615 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.629 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.646 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.664 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.678 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.693 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.707 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.724 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.742 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.754 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.768 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.786 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.800 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.818 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.834 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.848 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.861 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.905 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 12:52:47.907 [main] OrderDAOImpl - blabla
-[INFO ] 2020-04-16 12:52:47.927 [main] WaiterDAOImpl - Waiters successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.943 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:47.957 [main] OrderDAOImpl - Last ordernr loaded from database
-[INFO ] 2020-04-16 12:52:47.972 [main] BeverageDAOImpl - Beverages successfully loaded from database
-[INFO ] 2020-04-16 12:52:48.037 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:11:24.560 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:11:24.575 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:11:25.477 [main] OrderDAOImpl - Orders successfully loaded from database
+[INFO ] 2020-04-19 10:11:25.493 [main] OrderDAOImpl - 10 order deleted
+[INFO ] 2020-04-19 10:12:16.442 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.475 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.491 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.522 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.526 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.542 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.557 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.573 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.589 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.604 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.620 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.626 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.642 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.658 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.673 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.673 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.689 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.704 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.727 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.742 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.744 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.790 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:12:16.790 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:12:16.805 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.821 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.827 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 10:12:16.873 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 10:12:16.947 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:12:16.947 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 10:12:17.543 [main] OrderDAOImpl - Orders successfully loaded from database
+[INFO ] 2020-04-19 10:12:17.559 [main] OrderDAOImpl - 2 order deleted
+[INFO ] 2020-04-19 10:12:17.559 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:22:44.707 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:18.891 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:18.918 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:18.947 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:18.963 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:18.976 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:18.989 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.003 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.020 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.036 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.052 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.065 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.080 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.099 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.110 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.125 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.140 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.157 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.171 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.184 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.196 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.210 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.246 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:23:19.249 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:23:19.261 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.273 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:19.287 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:23:19.323 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:23:20.004 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:23:20.025 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:23:20.027 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:23:20.598 [main] OrderDAOImpl - Orders successfully loaded from database
+[INFO ] 2020-04-19 11:23:20.609 [main] OrderDAOImpl - 2 order deleted
+[INFO ] 2020-04-19 11:23:20.618 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.098 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.122 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.149 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.166 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.179 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.195 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.208 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.222 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.236 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.254 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.268 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.283 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.299 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.311 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.325 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.341 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.352 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.363 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.374 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.387 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.401 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.439 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:24:33.441 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:24:33.458 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.471 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:33.483 [main] OrderDAOImpl - Last ordernr loaded from database
+[INFO ] 2020-04-19 11:24:33.519 [main] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-19 11:24:34.202 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:34.213 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:24:34.216 [main] OrderDAOImpl - Order added successfully!
+[INFO ] 2020-04-19 11:24:34.782 [main] OrderDAOImpl - Orders successfully loaded from database
+[INFO ] 2020-04-19 11:24:34.799 [main] OrderDAOImpl - 2 order deleted
+[INFO ] 2020-04-19 11:24:34.808 [main] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 11:24:35.391 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:22:58.230 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:39:33.887 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:42:47.834 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:43:36.242 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:46:39.958 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:47:44.254 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 12:56:59.863 [main] OrderDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-19 13:00:08.760 [main] OrderDAOImpl - Waiters successfully loaded from database

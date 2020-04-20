@@ -1,0 +1,3 @@
+[INFO ] 2020-04-17 12:50:05.964 [JavaFX Application Thread] WaiterDAOImpl - Waiters successfully loaded from database
+[INFO ] 2020-04-17 12:50:06.001 [JavaFX Application Thread] BeverageDAOImpl - Beverages successfully loaded from database
+[INFO ] 2020-04-17 12:50:06.021 [JavaFX Application Thread] OrderDAOImpl - Last ordernr loaded from database

@@ -81,7 +81,7 @@ class OrderTest {
 
     @Test
     void getWaiterTest(){
-        order2.setWaiter(wout);
-        assertEquals(wout,order2.getWaiter(), "getWaiterTest failed. Waiter should be Wout");
+        order2.setWaiterID(wout);
+        assertEquals(1,order2.getWaiterID(), "getWaiterTest failed. Waiter should be Wout");
     }
 }

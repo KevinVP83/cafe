@@ -12,6 +12,7 @@ public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
 
     private static final String GET_ALL_BEVERAGES = "SELECT * from beverages";
     private final Logger logger = LogManager.getLogger(BeverageDAOImpl.class.getName());
+    private final String GET_BEVERAGE_BY_ID = "SELECT * from beverages where beverageID = ?";
     private static BeverageDAOImpl instance = new BeverageDAOImpl();
 
     private BeverageDAOImpl() {
@@ -42,6 +43,23 @@ public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
             logger.error("Error getting beverages from database " + e.getMessage());
         }
         return beverages;
+    }
+
+    @Override
+    public Beverage getBeverageByID(int beverageID) {
+        Beverage beverage = new Beverage(0,"Error",0);
+        try (
+                Connection connection = getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(GET_BEVERAGE_BY_ID)) {
+            preparedStatement.setInt(1, beverageID);
+            ResultSet rs = preparedStatement.executeQuery();
+            rs.next();
+            beverage = new Beverage(beverageID,rs.getString("beverageName"),rs.getDouble("price"));
+        }
+        catch (SQLException | DAOException e){
+            logger.error("Error getting beverage from database " + e.getMessage());
+        }
+        return beverage;
     }
 }
 

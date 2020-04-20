@@ -22,4 +22,8 @@ public class Beverage {
     public double getPrice() {
         return price;
     }
+
+    public String toString(){
+        return this.getName();
+    }
 }

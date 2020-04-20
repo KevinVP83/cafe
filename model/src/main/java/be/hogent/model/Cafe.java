@@ -124,7 +124,7 @@ public class Cafe {
             activeTable.getOrder().setOrderNr(getLatestOrderNr());
             setLatestOrderNr();
             assignWaiter(activeTable);
-            activeTable.getOrder().setWaiter(loggedOnWaiter);
+            activeTable.getOrder().setWaiterID(loggedOnWaiter);
             activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
             logger.info(activeTable.toString() + " order successfully created by " + loggedOnWaiter.toString() + "!");
         }
