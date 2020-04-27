@@ -189,11 +189,11 @@ class CafeTest {
 
     @Test
     public void getTotalWaiterSalesTest(){
-        assertEquals(4, cafe.getTotalWaiterSales().size());
+        assertEquals(3, cafe.getTop3WaiterSales().size());
     }
 
     @Test
     public void showTopWaitersReport() throws IOException {
-        assertTrue(cafe.showTopWaitersReport(cafe.getTotalWaiterSales()),"showTopWaitersReport failed!");
+        assertTrue(cafe.showTopWaitersReport(cafe.getTop3WaiterSales()),"showTopWaitersReport failed!");
     }
 }

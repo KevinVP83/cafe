@@ -13,6 +13,8 @@ import java.io.InputStream;
 import java.time.LocalDate;
 import java.util.*;
 
+import static java.util.stream.Collectors.toMap;
+
 public class Cafe {
     private final Logger logger = LogManager.getLogger(Cafe.class.getName());
     private Set<Waiter> waiters = new HashSet<>();
@@ -106,6 +108,7 @@ public class Cafe {
         if (isLoggedOn()) {
             logger.info("Login failed! There is already another user logged on!");
             result = false;
+
             throw new AlreadyLoggedOnException("There is already a user logged on !");
         }
         for (Waiter waiter : waiters) {
@@ -216,15 +219,22 @@ public class Cafe {
         return orderItems;
     }
 
-    public Map<Waiter,Double> getTotalWaiterSales(){
+    public Map<Waiter,Double> getTop3WaiterSales(){
         List<OrderItem> orderItems;
-        Map<Waiter,Double> totalSales = new HashMap<>();
+        Map<Waiter,Double> temp = new HashMap<>();
+        Map<Waiter,Double> top3Sales;
         for (Waiter w: getWaiters()) {
             orderItems = getAllOrderItemsForWaiter(w);
             double sum = orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
-            totalSales.put(w,sum);
+            temp.put(w,sum);
         }
-        return totalSales;
+        top3Sales = temp
+                .entrySet()
+                .stream()
+                .sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
+                .limit(3)
+                .collect(toMap(Map.Entry::getKey,Map.Entry::getValue, (e1,e2) -> e2, LinkedHashMap::new));
+        return top3Sales;
     }
 
     public boolean createPDF(Waiter waiter,List<OrderItem> orderItems){
