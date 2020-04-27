@@ -2,19 +2,16 @@ package be.hogent.model.dao;
 
 import be.hogent.model.Beverage;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
-
-import java.sql.SQLException;
-import java.util.Set;
+import java.util.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 public class BeverageDAOImplTest {
 
     @Test
     public void getAllBeveragesTest() {
 
-        Set<Beverage> beverages = BeverageDAOImpl.getInstance().getBeverages();
+        List<Beverage> beverages = BeverageDAOImpl.getInstance().getBeverages();
         assertEquals(17,beverages.size(),"Beverages size should be 17");
     }
 

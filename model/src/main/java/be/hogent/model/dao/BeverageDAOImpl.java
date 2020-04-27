@@ -5,7 +5,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
@@ -25,8 +27,8 @@ public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
     }
 
     @Override
-    public Set<Beverage> getBeverages() {
-        Set<Beverage> beverages = new HashSet<>();
+    public List<Beverage> getBeverages() {
+        List<Beverage> beverages = new ArrayList<>();
         try (
                 Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(GET_ALL_BEVERAGES);

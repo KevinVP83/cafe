@@ -1,9 +1,15 @@
 package be.hogent.model;
 
+import be.hogent.model.dao.DAOException;
+import be.hogent.model.dao.OrderDAOImpl;
+import be.hogent.model.reports.PDFReport;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -52,8 +58,8 @@ class CafeTest {
         cafe.addWaiter(ilse);
         cafe.addWaiter(patrick);
 
-        cafe.login("Wouter Peters", "password");
-        assertTrue(cafe.isLoggedOn(),"loginTest 1 failed");
+        assertTrue(cafe.login("Wouter Peters", "password"),"loginTest 1 failed");
+        assertTrue(cafe.isLoggedOn(),"cafe.isLoggedOn should be true!");
         assertEquals(wouter, cafe.getLoggedOnWaiter());
 
         try {
@@ -93,7 +99,7 @@ class CafeTest {
 
     @Test
     void getTablesTest(){
-        assertEquals(6,cafe.getTables().size(),"Test setTables failed");
+        assertEquals(6,cafe.getTables().size(),"Test getTables failed");
     }
 
     @Test
@@ -154,5 +160,40 @@ class CafeTest {
         cafe.login("Wout Peters", "password");
         cafe.pay(table7);
         assertNull(table7.getOrder(), "Table 7 order should be null");
+    }
+    @Test
+    public void getAllOrderItemsForWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+        cafe.login("Wout Peters","password");
+        assertTrue(cafe.getAllOrderItemsForWaiter(cafe.getLoggedOnWaiter()).size()>0,"getAllOrdersForWaiterTest failed");
+    }
+
+    @Test
+    public void getAllOrderItemsByDateTest() throws DAOException, Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+        cafe.login("Patrick Desmet","password");
+        table7.setAssignedWaiter(cafe.getLoggedOnWaiter());
+        table7.createOrder();
+        table7.getOrder().setOrderNr(99999);
+        table7.getOrder().addOrderItem(new OrderItem(beverage1,4));
+        table7.getOrder().addOrderItem(new OrderItem(beverage2,3));
+        OrderDAOImpl.getInstance().insertOrder(table7);
+        assertTrue(cafe.getAllOrderItemsByDate(cafe.getLoggedOnWaiter(), LocalDate.now()).size()>0);
+        assertTrue(OrderDAOImpl.getInstance().deleteOrder(99999)>0);
+        OrderDAOImpl.getInstance().deleteOrder(99999);
+    }
+
+    @Test
+    public void createPDFTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+        cafe.login("Wout Peters", "password");
+        assertTrue(cafe.createPDF(cafe.getLoggedOnWaiter(), cafe.getAllOrderItemsForWaiter(cafe.getLoggedOnWaiter())), "exportToPDFTest failed!");
+    }
+
+    @Test
+    public void getTotalWaiterSalesTest(){
+        assertEquals(4, cafe.getTotalWaiterSales().size());
+    }
+
+    @Test
+    public void showTopWaitersReport() throws IOException {
+        assertTrue(cafe.showTopWaitersReport(cafe.getTotalWaiterSales()),"showTopWaitersReport failed!");
     }
 }

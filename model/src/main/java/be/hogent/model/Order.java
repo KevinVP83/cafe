@@ -2,8 +2,8 @@ package be.hogent.model;
 
 import java.sql.Date;
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -50,7 +50,7 @@ public class Order {
         setTableNr(tableNr);
     }
 
-    public Order(int orderNr, Date date, int waiterID){ //Voor als ik Order uit database haal!
+    public Order(int orderNr, Date date, int waiterID){
         this.orderNr = orderNr;
         this.date = date.toLocalDate();
         this.waiterID = waiterID;
@@ -96,5 +96,17 @@ public class Order {
         return orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Order order = (Order) o;
+        return orderNr == order.orderNr;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(orderNr);
+    }
 }
 

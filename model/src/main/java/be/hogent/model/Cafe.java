@@ -3,25 +3,84 @@ package be.hogent.model;
 import be.hogent.model.dao.BeverageDAOImpl;
 import be.hogent.model.dao.OrderDAOImpl;
 import be.hogent.model.dao.WaiterDAOImpl;
+import be.hogent.model.reports.PDFReport;
+import be.hogent.model.reports.PieChartReport;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.*;
 
 public class Cafe {
     private final Logger logger = LogManager.getLogger(Cafe.class.getName());
     private Set<Waiter> waiters = new HashSet<>();
-    private Set<Beverage> beverages = new HashSet<>();
+    private List<Beverage> beverages = new ArrayList<>();
     private Set<Table> tables = new HashSet<>();
     private boolean isLoggedOn;
     private Waiter loggedOnWaiter;
     private Table activeTable;
+    private int nrOfTables;
     private int latestOrderNr;
 
-    public Cafe(){
+    //Constructor
 
+    public Cafe(){
         initializeCafe();
     }
+
+    //Getters and setters
+
+    public int getLatestOrderNr(){
+        return latestOrderNr;
+    }
+
+    public Table getActiveTable() {
+        return activeTable;
+    }
+
+    public void setLatestOrderNr(){
+        latestOrderNr += latestOrderNr;
+    }
+
+    public Set<Waiter> getWaiters() {
+        return waiters;
+    }
+
+    public List<Beverage> getBeverages() {
+        return beverages;
+    }
+
+    public void setActiveTable(Table table) {
+        this.activeTable = table;
+    }
+
+    public void addWaiter(Waiter waiter) {
+        waiters.add(waiter);
+    }
+
+    public boolean isLoggedOn() {
+        return isLoggedOn;
+    }
+
+    public Waiter getLoggedOnWaiter() {
+        return loggedOnWaiter;
+    }
+
+    public Set<Table> getTables() {
+        return tables;
+    }
+
+    public void setTables() {
+        readProperties("cafe.properties");
+        for (int i = 0; i < nrOfTables; i++){
+            Table table = new Table(i+1);
+            tables.add(table);
+        }
+    }
+
+    //Methods
 
     private void initializeCafe(){
         waiters = WaiterDAOImpl.getInstance().getWaiters();
@@ -42,45 +101,11 @@ public class Cafe {
         }
     }
 
-    public int getLatestOrderNr(){
-        return latestOrderNr;
-    }
-
-    public Table getActiveTable() {
-        return activeTable;
-    }
-
-    public void setLatestOrderNr(){
-        latestOrderNr += latestOrderNr;
-    }
-
-    public Set<Waiter> getWaiters() {
-        return waiters;
-    }
-
-    public Set<Beverage> getBeverages() {
-        return beverages;
-    }
-
-    public void setActiveTable(Table table) {
-        this.activeTable = table;
-    }
-
-    public void addWaiter(Waiter waiter) {
-        waiters.add(waiter);
-    }
-
-    public boolean isLoggedOn() {
-        return isLoggedOn;
-    }
-
-    public Waiter getLoggedOnWaiter() {
-        return loggedOnWaiter;
-    }
-
-    public void login(String name, String password) throws WrongCredentialsException, AlreadyLoggedOnException {
+    public boolean login(String name, String password) throws WrongCredentialsException, AlreadyLoggedOnException {
+        boolean result = false;
         if (isLoggedOn()) {
             logger.info("Login failed! There is already another user logged on!");
+            result = false;
             throw new AlreadyLoggedOnException("There is already a user logged on !");
         }
         for (Waiter waiter : waiters) {
@@ -88,12 +113,15 @@ public class Cafe {
                 isLoggedOn = true;
                 loggedOnWaiter = waiter;
                 logger.info(waiter + " successfully logged on!");
+                result = true;
             }
         }
         if (!(isLoggedOn())) {
             logger.error("Error logging in. Combination of username and password not found!");
+            result = false;
             throw new WrongCredentialsException("Combination of username and password not found");
         }
+        return result;
     }
 
     public void logoff(){
@@ -156,24 +184,63 @@ public class Cafe {
         }
     }
 
-    public Set<Table> getTables() {
-        return tables;
+    private  void readProperties (String propFile) {
+        Properties tableProperties = new Properties ();
+        try (InputStream inputStream = ClassLoader.getSystemResourceAsStream (propFile)) {
+            tableProperties.load (inputStream);
+            nrOfTables = Integer.valueOf(tableProperties.getProperty("nrOfTables"));
+            logger.info("Nr of tables loaded from properties file");
+        } catch (IOException ioe) {
+            logger.error("Error getting nr of tables " + ioe.getMessage());
+        }
     }
 
-    public void setTables() {
-        Table table1 = new Table(1);
-        tables.add(table1);
-        Table table2 = new Table(2);
-        tables.add(table2);
-        Table table3 = new Table(3);
-        tables.add(table3);
-        Table table4 = new Table(4);
-        tables.add(table4);
-        Table table5 = new Table(5);
-        tables.add(table5);
-        Table table6 = new Table(6);
-        tables.add(table6);
+    public List<OrderItem> getAllOrderItemsForWaiter(Waiter waiter){
+        Set<Order> orders = OrderDAOImpl.getInstance().getAllOrders();
+        List<OrderItem> orderItems = new ArrayList<>();
+        orders.stream()
+                .filter(order -> waiter.getWaiterID() == order.getWaiterID())
+                .flatMap(order -> order.getOrderItems().stream()).forEach(orderItems::add);
+
+        return orderItems;
     }
+
+    public List<OrderItem> getAllOrderItemsByDate(Waiter waiter, LocalDate date){
+        Set<Order> orders = OrderDAOImpl.getInstance().getAllOrders();
+        List<OrderItem> orderItems = new ArrayList<>();
+        orders.stream()
+                .filter(order -> waiter.getWaiterID() == order.getWaiterID())
+                .filter(order -> order.getDate().equals(date))
+                .flatMap(order -> order.getOrderItems().stream()).forEach(orderItems::add);
+
+        return orderItems;
+    }
+
+    public Map<Waiter,Double> getTotalWaiterSales(){
+        List<OrderItem> orderItems;
+        Map<Waiter,Double> totalSales = new HashMap<>();
+        for (Waiter w: getWaiters()) {
+            orderItems = getAllOrderItemsForWaiter(w);
+            double sum = orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
+            totalSales.put(w,sum);
+        }
+        return totalSales;
+    }
+
+    public boolean createPDF(Waiter waiter,List<OrderItem> orderItems){
+        boolean result = false;
+        if (PDFReport.getInstance().exportToPDF(waiter,orderItems)){
+            result = true;
+        }
+        return result;
+    }
+
+    public boolean showTopWaitersReport(Map<Waiter,Double> totalSales) throws IOException {
+        if(PieChartReport.getInstance().makeChart(totalSales)){return true;}
+        else{return false;}
+    }
+
+    //Exceptions
 
     public static class WrongCredentialsException extends Exception {
         public WrongCredentialsException(String message) {

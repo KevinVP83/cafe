@@ -13,5 +13,5 @@ public interface OrderDAO {
     public int getLatestOrderNr();
     public Set<Order> getAllOrders();
     public int deleteOrder(int orderNr);
-    public List<OrderItem> getAllOrderItemsForWaiter(Waiter waiter);
+    //public List<OrderItem> getAllOrderItemsForWaiter(Waiter waiter);
 }

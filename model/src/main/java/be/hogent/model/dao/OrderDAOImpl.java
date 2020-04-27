@@ -7,7 +7,6 @@ import java.sql.*;
 import java.sql.Date;
 import java.time.LocalDate;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class OrderDAOImpl extends BaseDAO implements OrderDAO {
 
@@ -15,7 +14,7 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
     private static final String MAX_ORDER_NUMBER = "SELECT MAX(orderNumber) from orders";
     private static final String GET_ALL_ORDERS = "SELECT * from orders";
     private static final String DELETE_ORDER = "DELETE from orders where orderNumber = ?";
-    private static final String GET_ALL_ORDERITEMS_FOR_WAITER = "SELECT * from orders where waiterID = ?";
+    private static final String GET_DATES_FROM_SQL = "SELECT date from orders";
 
 
     private final Logger logger = LogManager.getLogger(OrderDAOImpl.class.getName());
@@ -75,20 +74,27 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
         try (
                 Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(GET_ALL_ORDERS);
-                ResultSet rs = preparedStatement.executeQuery()
-        ) {
+                ResultSet rs = preparedStatement.executeQuery()) {
 
             while (rs.next()) {
                 Order order = new Order(rs.getInt("orderNumber"), rs.getDate("date"), rs.getInt("waiterID"));
                 Beverage beverage = BeverageDAOImpl.getInstance().getBeverageByID(rs.getInt("beverageID"));
                 OrderItem orderItem = new OrderItem(beverage,rs.getInt("qty"));
-                for (Order o: orders) {
-                    if(o.getOrderNr()==order.getOrderNr()){
-                        o.addOrderItem(orderItem);
+                order.getOrderItems().add(orderItem);
+                if (orders.size() == 0){
+                    orders.add(order);
+                }
+                else {
+                    if(!(orders.add(order))) {
+                        for (Order o : orders) {
+                            if (o.getOrderNr() == order.getOrderNr()) {
+                                o.addOrderItem(orderItem);
+                            }
+                        }
                     }
                     else{
                         orders.add(order);
-                    }
+                          }
                 }
             }
             logger.info("Orders successfully loaded from database");
@@ -114,41 +120,18 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
         return result;
     }
 
-    public List<OrderItem> getAllOrderItemsForWaiter(Waiter waiter){
-        List<OrderItem> orderItems = new ArrayList<>();
-        try (
-                Connection connection = getConnection();
-                PreparedStatement preparedStatement = connection.prepareStatement(GET_ALL_ORDERITEMS_FOR_WAITER)){
-            preparedStatement.setInt(1, waiter.getWaiterID());
-            ResultSet rs = preparedStatement.executeQuery();
-
-            while (rs.next()) {
-                OrderItem orderItem = new OrderItem(BeverageDAOImpl.getInstance().getBeverageByID(rs.getInt("beverageID")),rs.getInt("qty"));
-                orderItems.add(orderItem);
-            }
-            logger.info("Waiters successfully loaded from database");
-
-        } catch (SQLException | DAOException e) {
-            logger.error("Error getting waiters from database " + e.getMessage());
+    public TreeSet<Date> getAllDates() throws DAOException{
+        TreeSet<Date> dates = new TreeSet<>();
+        try ( Connection connection = getConnection();
+               PreparedStatement getDates = connection.prepareStatement(GET_DATES_FROM_SQL);
+               ResultSet rs = getDates.executeQuery()) {
+             while (rs.next()) {
+                 dates.add(rs.getDate("date"));
+             }
+        } catch (SQLException e) {
+            throw new DAOException("Error getting dates from database." + e.getMessage());
         }
-        return orderItems;
-    }
-
-    public List<OrderItem> getAllOrderItemsByDate(Waiter waiter, LocalDate date){
-        Set<Order> orders = OrderDAOImpl.getInstance().getAllOrders();
-        List<OrderItem> orderItems;
-        orderItems = orders.stream()
-                .filter(order -> order.getDate().equals(date))
-                .filter(order -> order.getWaiterID() == waiter.getWaiterID())
-                .flatMap(order -> order.getOrderItems().stream().collect(Collectors.toList()));
-//        for (Order o: orders) {
-//            if (waiter.getWaiterID()==o.getWaiterID() && date.equals(o.getDate())) {
-//                for (OrderItem oI: o.getOrderItems()) {
-//                    orderItems.add(oI);
-//                }
-//            }
-//        }
-        return orderItems;
+        return dates;
     }
 }
 

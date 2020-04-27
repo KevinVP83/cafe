@@ -1,21 +1,24 @@
 package be.hogent.model.reports;
 
-import be.hogent.model.Waiter;
-import be.hogent.model.dao.OrderDAOImpl;
+import be.hogent.model.Cafe;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class PDFReportTest {
 
-    private Waiter wout;
+    private Cafe cafe;
+
 
     @BeforeEach
-    public void setup(){
-        wout = new Waiter(1,"Peters","Wout","password");
+    public void setup() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
+        cafe =  new Cafe();
+        cafe.login("Wout Peters","password");
     }
 
     @Test
     public void exportToPDFTest(){
-        PDFReport.getInstance().exportToPDF(OrderDAOImpl.getInstance().getAllOrderItemsForWaiter(wout));
+        assertTrue(PDFReport.getInstance().exportToPDF(cafe.getLoggedOnWaiter(), cafe.getAllOrderItemsForWaiter(cafe.getLoggedOnWaiter())), "exportToPDFTest failed!");
     }
 }
