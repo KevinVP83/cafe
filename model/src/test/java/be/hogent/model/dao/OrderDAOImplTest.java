@@ -59,7 +59,7 @@ public class OrderDAOImplTest {
 
     @Test
     public void getAllDatesTest() throws DAOException{
-        Set<Date> dates = OrderDAOImpl.getInstance().getAllDates();
+        Set<Date> dates = OrderDAOImpl.getInstance().getAllDates(wout);
         assertTrue(dates.size()>0);
     }
 }

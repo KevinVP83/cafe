@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.hogent.view.LoginController">
+    <children>
+        <Button fx:id="bt_login" layoutX="318.0" layoutY="161.0" mnemonicParsing="false" onAction="#login" text="Login" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="30.0" />
+        <Label layoutX="54.0" layoutY="43.0" text="Username" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="43.0" />
+        <Label layoutX="56.0" layoutY="92.0" text="Password" AnchorPane.leftAnchor="56.0" AnchorPane.topAnchor="92.0" />
+        <PasswordField fx:id="passwordField" layoutX="54.0" layoutY="109.0" promptText="password" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="109.0" />
+        <TextField fx:id="loginName" layoutX="54.0" layoutY="60.0" promptText="username" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="60.0" />
+    </children>
+</AnchorPane>

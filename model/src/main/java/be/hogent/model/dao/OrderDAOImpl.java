@@ -14,7 +14,7 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
     private static final String MAX_ORDER_NUMBER = "SELECT MAX(orderNumber) from orders";
     private static final String GET_ALL_ORDERS = "SELECT * from orders";
     private static final String DELETE_ORDER = "DELETE from orders where orderNumber = ?";
-    private static final String GET_DATES_FROM_SQL = "SELECT date from orders";
+    private static final String GET_DATES_FROM_SQL = "SELECT date from orders where waiterID = ?";
 
 
     private final Logger logger = LogManager.getLogger(OrderDAOImpl.class.getName());
@@ -120,14 +120,17 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
         return result;
     }
 
-    public TreeSet<Date> getAllDates() throws DAOException{
+    public TreeSet<Date> getAllDates(Waiter waiter) throws DAOException{
         TreeSet<Date> dates = new TreeSet<>();
         try ( Connection connection = getConnection();
-               PreparedStatement getDates = connection.prepareStatement(GET_DATES_FROM_SQL);
-               ResultSet rs = getDates.executeQuery()) {
-             while (rs.next()) {
-                 dates.add(rs.getDate("date"));
-             }
+               PreparedStatement getDates = connection.prepareStatement(GET_DATES_FROM_SQL)) {
+               getDates.setInt(1,waiter.getWaiterID());
+
+               ResultSet rs = getDates.executeQuery();{
+                while (rs.next()) {
+                    dates.add(rs.getDate("date"));
+                }
+            }
         } catch (SQLException e) {
             throw new DAOException("Error getting dates from database." + e.getMessage());
         }

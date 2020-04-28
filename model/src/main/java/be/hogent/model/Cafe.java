@@ -1,6 +1,7 @@
 package be.hogent.model;
 
 import be.hogent.model.dao.BeverageDAOImpl;
+import be.hogent.model.dao.DAOException;
 import be.hogent.model.dao.OrderDAOImpl;
 import be.hogent.model.dao.WaiterDAOImpl;
 import be.hogent.model.reports.PDFReport;
@@ -10,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -127,7 +129,7 @@ public class Cafe {
         return result;
     }
 
-    public void logoff(){
+    public void logoff() {
         logger.info(loggedOnWaiter.toString() + " successfully logged off!");
         isLoggedOn = false;
         loggedOnWaiter = null;
@@ -248,6 +250,10 @@ public class Cafe {
     public boolean showTopWaitersReport(Map<Waiter,Double> totalSales) throws IOException {
         if(PieChartReport.getInstance().makeChart(totalSales)){return true;}
         else{return false;}
+    }
+
+    public TreeSet<Date> getAllDatesForWaiter(Waiter waiter) throws DAOException {
+        return OrderDAOImpl.getInstance().getAllDates(waiter);
     }
 
     //Exceptions
