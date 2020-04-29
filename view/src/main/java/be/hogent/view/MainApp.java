@@ -64,28 +64,8 @@ public class MainApp extends Application {
         }
     }
 
-    private void showBeverageOverview () {
-        try {
-            // Load beverage overview.
-            FXMLLoader loader = new FXMLLoader ();
-            loader.setLocation (getClass ().getResource ("/cafe/Main.fxml"));
-            AnchorPane beverageOverview = loader.load ();
 
-            // Set beverage overview into the center of root layout.
-            rootLayout.setCenter (beverageOverview);
-
-            // Give the controller access to the main app.
-            be.hogent.view.MainController controller = loader.getController ();
-            controller.setModel (model);
-
-            controller.setCafeView (this);
-
-        } catch (IOException | DAOException e) {
-            e.printStackTrace ();
-        }
-    }
-
-    private void showMainView(){
+    public void showMainView(){
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/cafe/Main.fxml"));

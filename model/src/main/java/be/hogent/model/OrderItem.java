@@ -7,6 +7,7 @@ public class OrderItem {
     private static Logger logger = Logger.getLogger(OrderItem.class.getName());
     private Beverage beverage;
     private int quantity;
+    private String name;
 
     //Getters and Setters
 
@@ -26,6 +27,12 @@ public class OrderItem {
         return beverage;
     }
 
+    public String getName() { return beverage.getName(); }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
     //Overrides
 
     @Override
@@ -41,12 +48,12 @@ public class OrderItem {
         return Objects.hash(beverage);
     }
 
-
     //Constructor
 
     public OrderItem(Beverage beverage, int quantity){
         this.beverage = beverage;
         this.quantity = quantity;
+        setName(beverage.getName());
     }
 
     //methods

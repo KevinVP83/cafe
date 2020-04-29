@@ -13,13 +13,10 @@ public class LoginController {
     private Cafe model;
     private Stage dialogStage;
     private boolean loginSuccess = false;
-
     @FXML
     private PasswordField passwordField;
-
     @FXML
     private TextField loginName;
-
     @FXML
     private Button bt_login;
 

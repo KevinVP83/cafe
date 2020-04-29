@@ -196,4 +196,10 @@ class CafeTest {
     public void showTopWaitersReport() throws IOException {
         assertTrue(cafe.showTopWaitersReport(cafe.getTop3WaiterSales()),"showTopWaitersReport failed!");
     }
+
+    @Test
+    public void getAllDatesForWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException, DAOException {
+        cafe.login("Wout Peters", "password");
+        assertTrue(cafe.getAllDatesForWaiter(cafe.getLoggedOnWaiter()).size()>0);
+    }
 }
