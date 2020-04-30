@@ -27,10 +27,10 @@ public class OrderItem {
         return beverage;
     }
 
-    public String getName() { return beverage.getName(); }
+    public String getName() { return name; }
 
-    public void setName(String name){
-        this.name = name;
+    public void setName(){
+        this.name = beverage.getName();
     }
 
     //Overrides
@@ -53,7 +53,7 @@ public class OrderItem {
     public OrderItem(Beverage beverage, int quantity){
         this.beverage = beverage;
         this.quantity = quantity;
-        setName(beverage.getName());
+        setName();
     }
 
     //methods

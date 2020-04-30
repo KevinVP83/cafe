@@ -25,7 +25,10 @@ public class Table {
         this.assignedWaiter = waiter;
     }
 
-    public Table (int tableNr){ this.tableNr = tableNr;}
+    public Table (int tableNr){
+        this.tableNr = tableNr;
+        this.order = new Order();
+    }
 
     @Override
     public String toString() {
@@ -33,7 +36,7 @@ public class Table {
     }
 
     public void clearTable(){
-        order = null;
+        order = new Order();
         assignedWaiter = null;
         logger.debug(this.toString() + " successfully cleared");
     }

@@ -75,4 +75,10 @@ class OrderItemTest {
         assertTrue(orderItem1.hashCode() == orderItem5.hashCode());
         assertFalse(orderItem1.hashCode() == orderItem3.hashCode());
     }
+
+    @Test
+    void getNameTest(){
+        orderItem1.setName();
+        assertEquals(beverage1.getName(),orderItem1.getName());
+    }
 }
