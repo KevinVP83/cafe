@@ -160,6 +160,7 @@ class CafeTest {
         cafe.login("Wout Peters", "password");
         cafe.pay(table7);
         assertNull(table7.getOrder(), "Table 7 order should be null");
+        OrderDAOImpl.getInstance().deleteOrder(OrderDAOImpl.getInstance().getLatestOrderNr());
     }
     @Test
     public void getAllOrderItemsForWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException {
@@ -177,8 +178,8 @@ class CafeTest {
         table7.getOrder().addOrderItem(new OrderItem(beverage2,3));
         OrderDAOImpl.getInstance().insertOrder(table7);
         assertTrue(cafe.getAllOrderItemsByDate(cafe.getLoggedOnWaiter(), LocalDate.now()).size()>0);
-        assertTrue(OrderDAOImpl.getInstance().deleteOrder(99999)>0);
-        OrderDAOImpl.getInstance().deleteOrder(99999);
+        assertTrue(OrderDAOImpl.getInstance().deleteOrder(table7.getOrder().getOrderNr())>0);
+        OrderDAOImpl.getInstance().deleteOrder(table7.getOrder().getOrderNr());
     }
 
     @Test

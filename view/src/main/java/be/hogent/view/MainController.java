@@ -2,20 +2,24 @@ package be.hogent.view;
 
 import be.hogent.model.*;
 import be.hogent.model.dao.DAOException;
+import be.hogent.model.reports.PieChartReport;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
+import javafx.scene.chart.PieChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 
 public class MainController {
 
@@ -23,6 +27,8 @@ public class MainController {
 	private TableView<Beverage> beverageTable;
 	@FXML
 	private TableView<OrderItem> orderItemTable;
+	@FXML
+	private TableView<OrderItem> salesView;
 	@FXML
 	private ScrollPane scrollPane;
 	@FXML
@@ -36,9 +42,21 @@ public class MainController {
 	@FXML
 	private TableColumn<OrderItem, Integer> itemQtyColumn;
 	@FXML
+	private TableColumn<OrderItem, String> beverageNameColumn;
+	@FXML
+	private TableColumn<OrderItem, Integer> beverageQtyColumn;
+	@FXML
 	private ComboBox<Date> dates;
 	@FXML
 	private Label lb_currentWaiter;
+	@FXML
+	private Label lb_totalPrice;
+	@FXML
+	private Label lb_totalSalesPrice;
+	@FXML
+	private ImageView top3View;
+	@FXML
+	private PieChart top3Waiters;
 
 	private MainApp cafeView;
 	private Stage dialogStage;
@@ -47,7 +65,8 @@ public class MainController {
 	private Order order;
 	private OrderItem o;
 	private ObservableList<OrderItem> orderItems;
-	private Map<Table,Button> tableButtonMap;
+	private ObservableList<OrderItem> sales;
+	private Map<Table, Button> tableButtonMap;
 
 	/**
 	 * The constructor.
@@ -81,6 +100,9 @@ public class MainController {
 		itemNameColumn.setCellValueFactory(itemNameProperty);
 		itemQtyColumn.setCellValueFactory(itemQtyProperty);
 
+		beverageNameColumn.setCellValueFactory(itemNameProperty);
+		beverageQtyColumn.setCellValueFactory(itemQtyProperty);
+
 		beverageTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> setB(newValue));
 		orderItemTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> setO(newValue));
 	}
@@ -101,8 +123,13 @@ public class MainController {
 		this.model = model;
 	}
 
-	private void setB(Beverage b){this.b = b;}
-	private void setO(OrderItem o){this.o = o;}
+	private void setB(Beverage b) {
+		this.b = b;
+	}
+
+	private void setO(OrderItem o) {
+		this.o = o;
+	}
 
 
 	private void login() {
@@ -111,11 +138,13 @@ public class MainController {
 			setTables();
 			orderItems = FXCollections.observableList(new ArrayList<>());
 			orderItemTable.setItems(orderItems);
+			setSalesView();
 		}
 	}
 
 	public void logOff() {
 		lb_currentWaiter.setText("XXXXX");
+		lb_totalPrice.setText("€ 0.00");
 		model.logoff();
 		resetTables();
 		model.setActiveTable(null);
@@ -141,15 +170,15 @@ public class MainController {
 			Button button = new Button(table.toString());
 			button.setPrefSize(110, 110);
 			tablePane.getChildren().addAll(button);
-			tableButtonMap.put(table,button);
+			tableButtonMap.put(table, button);
 
 			button.setOnMouseClicked(mouseEvent -> {
 				updateTables();
 				button.setStyle("-fx-background-color: yellow");
-				for (Map.Entry<Table,Button> entry : tableButtonMap.entrySet()){
-					if (entry.getValue().equals(button)){
-						setOrderItems(entry.getKey().getOrder());
+				for (Map.Entry<Table, Button> entry : tableButtonMap.entrySet()) {
+					if (entry.getValue().equals(button)) {
 						model.setActiveTable(entry.getKey());
+						setOrderItems(entry.getKey().getOrder());
 					}
 				}
 			});
@@ -170,7 +199,7 @@ public class MainController {
 	}
 
 	public void resetTables() {
-			tablePane.getChildren().clear();
+		tablePane.getChildren().clear();
 	}
 
 	private void updateTables() {
@@ -180,7 +209,12 @@ public class MainController {
 			} else {
 
 				if (entry.getKey().getAssignedWaiter().equals(model.getLoggedOnWaiter())) {
-					entry.getValue().setStyle("-fx-background-color: green");
+					if (entry.getKey().getOrder().getOrderItems().size() > 0) {
+						entry.getValue().setStyle("-fx-background-color: green");
+					} else {
+						entry.getValue().setStyle("-fx-background-color: grey");
+						entry.getKey().setAssignedWaiter(null);
+					}
 
 				} else {
 					entry.getValue().setDisable(true);
@@ -191,19 +225,16 @@ public class MainController {
 	}
 
 
-	public void setOrderItems(Order order)throws NullPointerException{
+	public void setOrderItems(Order order) throws NullPointerException {
 
-		try{
+		try {
 			orderItems = FXCollections.observableList(new ArrayList<>(order.getOrderItems()));
 			orderItemTable.setItems(orderItems);
-		}catch (NullPointerException n){
+			updateTotalPrice();
+		} catch (NullPointerException n) {
 			orderItems = FXCollections.observableList(new ArrayList<>());
 			orderItemTable.setItems(orderItems);
-//			Alert alert = new Alert(Alert.AlertType.ERROR);
-//			alert.initOwner(dialogStage);
-//			alert.setTitle("No active order found");
-//			alert.setContentText("No active order for this table");
-//			alert.showAndWait();
+			updateTotalPrice();
 		}
 	}
 
@@ -215,12 +246,13 @@ public class MainController {
 				Beverage beverage = beverageTable.getSelectionModel().getSelectedItem();
 				model.order(beverage, 1);
 				setOrderItems(model.getActiveTable().getOrder());
+				updateTotalPrice();
+				//System.out.println(model.getActiveTable().getOrder().getOrderItems().toString());
 			} else {
 				// Nothing selected.
 				Alert alert = new Alert(Alert.AlertType.WARNING);
 				alert.initOwner(cafeView.getPrimaryStage());
-				alert.setTitle("No Selection");
-				alert.setHeaderText("No beverage Selected");
+				alert.setTitle("No beverage selected");
 				alert.setContentText("Please select a beverage in the table.");
 				alert.showAndWait();
 			}
@@ -229,26 +261,79 @@ public class MainController {
 			Alert alert = new Alert(Alert.AlertType.WARNING);
 			alert.initOwner(cafeView.getPrimaryStage());
 			alert.setTitle("No Table Selected");
-			//alert.setHeaderText("No table Selected");
 			alert.setContentText("Please select a table!");
 			alert.showAndWait();
 		}
 	}
 
-	private void setActiveTable(Button button){
-		button.setStyle("-fx-background-color: orange");
-		String tableName = button.getText();
-		for (Table t : model.getTables()) {
-			if (t.toString().equals(tableName))
-				model.setActiveTable(t);
+	public void deleteOrderItem() {
+		try {
+			int selectedIndex = orderItemTable.getSelectionModel().getSelectedIndex();
+			if (selectedIndex >= 0) {
+				model.getActiveTable().getOrder().getOrderItems().remove(orderItemTable.getSelectionModel().getSelectedItem());
+				setOrderItems(model.getActiveTable().getOrder());
+				updateTotalPrice();
+				if (model.getActiveTable().getOrder().getOrderItems().size() == 0) {
+					model.getActiveTable().setAssignedWaiter(null);
+					updateTotalPrice();
+				}
+			} else {
+				// Nothing selected.
+				Alert alert = new Alert(Alert.AlertType.WARNING);
+				alert.initOwner(cafeView.getPrimaryStage());
+				alert.setTitle("No orderItem selected");
+				alert.setContentText("Please select orderItem in the table.");
+				alert.showAndWait();
+			}
+			setOrderItems(model.getActiveTable().getOrder());
+		} catch (NullPointerException e) {
+			Alert alert = new Alert(Alert.AlertType.WARNING);
+			alert.initOwner(cafeView.getPrimaryStage());
+			alert.setTitle("No Table Selected");
+			alert.setContentText("Please select a table!");
+			alert.showAndWait();
 		}
+	}
+
+	private void updateTotalPrice() {
+		if (model.getActiveTable() == null || model.getActiveTable().getOrder() == null || model.getActiveTable().getOrder().getOrderItems() == null || model.getActiveTable().getOrder().getOrderItems().size() == 0) {
+			lb_totalPrice.setText("€ 0.00");
+		} else {
+			Double total = model.getActiveTable().getOrder().getTotalPrice();
+			String price = String.format("%.2f", total);
+			lb_totalPrice.setText("€ " + price);
+		}
+	}
+
+	public void pay() throws Cafe.alreadyOtherWaiterAssignedException {
+		model.pay(model.getActiveTable());
 		setOrderItems(model.getActiveTable().getOrder());
+		updateTotalPrice();
+		setSalesView();
+	}
+
+	private void setSalesView() {
+		sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter())));
+		salesView.setItems(sales);
+		setTotalSalesPrice();
+	}
+
+	private void setTotalSalesPrice() {
+		Double total = model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter()).stream().mapToDouble(OrderItem::getPrice).sum();
+		String price = String.format("%.2f", total);
+		lb_totalSalesPrice.setText("€ " + price);
+	}
+
+	public void showTop3View() {
+		ObservableList<PieChart.Data> topWaiters = FXCollections.observableArrayList();
+		for (Map.Entry<Waiter, Double> entry : model.getTop3WaiterSales().entrySet()) {
+			topWaiters.add(new PieChart.Data(entry.getKey().toString(), entry.getValue()));
+		}
+		top3Waiters.setData(topWaiters);
+	}
+
+	public void getDates() throws DAOException {
+		ObservableList<Date> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
+		dates.setItems(listDates);
 	}
 }
-
-
-
-//	public void getDates() throws DAOException {
-//		ObservableList<Date> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
-//		dates.setItems(listDates);
-//	}

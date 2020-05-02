@@ -162,7 +162,8 @@ public class Cafe {
             logger.info(activeTable.toString() + " order successfully created by " + loggedOnWaiter.toString() + "!");
         }
         else{
-            if (activeTable.getAssignedWaiter().equals(loggedOnWaiter)){
+            if (activeTable.getAssignedWaiter()==null || (activeTable.getAssignedWaiter().equals(loggedOnWaiter))){
+                activeTable.setAssignedWaiter(loggedOnWaiter);
                 activeTable.getOrder().addOrderItem(new OrderItem(beverage,qty));
                 logger.info(activeTable.toString() + " order successfully updated by " + loggedOnWaiter.toString() + "!");
             }
@@ -175,7 +176,7 @@ public class Cafe {
 
     public void removeOrder(Beverage beverage, int qty)throws alreadyOtherWaiterAssignedException{
         if (activeTable.getOrder()==null){
-            logger.error("No orders to found delete!");
+            logger.error("No orders to delete found!");
         }
         else{
             if (activeTable.getAssignedWaiter().equals(loggedOnWaiter)){

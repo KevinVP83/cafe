@@ -46,8 +46,7 @@ public class OrderDAOImplTest {
         assertNull(table1.getOrder(), "testGetAllOrders 1 failed");
         orders = OrderDAOImpl.getInstance().getAllOrders();
         assertNotNull(orders,"GetAllOrdersTest 2 failed");
-        assertTrue(OrderDAOImpl.getInstance().deleteOrder(99999)>0,"Delete order test failed!");
-        OrderDAOImpl.getInstance().deleteOrder(99999);
+        assertTrue(OrderDAOImpl.getInstance().deleteOrder(OrderDAOImpl.getInstance().getLatestOrderNr())>0,"Delete order test failed!");
     }
 
 
