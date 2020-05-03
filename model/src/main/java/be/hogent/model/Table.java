@@ -27,7 +27,6 @@ public class Table {
 
     public Table (int tableNr){
         this.tableNr = tableNr;
-        this.order = new Order();
     }
 
     @Override
@@ -36,7 +35,7 @@ public class Table {
     }
 
     public void clearTable(){
-        order = new Order();
+        order = null;
         assignedWaiter = null;
         logger.debug(this.toString() + " successfully cleared");
     }

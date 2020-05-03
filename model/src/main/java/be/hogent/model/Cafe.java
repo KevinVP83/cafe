@@ -11,7 +11,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Date;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -217,7 +216,6 @@ public class Cafe {
                 .filter(order -> waiter.getWaiterID() == order.getWaiterID())
                 .filter(order -> order.getDate().equals(date))
                 .flatMap(order -> order.getOrderItems().stream()).forEach(orderItems::add);
-
         return orderItems;
     }
 
