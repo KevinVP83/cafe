@@ -120,15 +120,15 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
         return result;
     }
 
-    public TreeSet<Date> getAllDates(Waiter waiter) throws DAOException{
-        TreeSet<Date> dates = new TreeSet<>();
+    public TreeSet<LocalDate> getAllDates(Waiter waiter) throws DAOException{
+        TreeSet<LocalDate> dates = new TreeSet<>();
         try ( Connection connection = getConnection();
                PreparedStatement getDates = connection.prepareStatement(GET_DATES_FROM_SQL)) {
                getDates.setInt(1,waiter.getWaiterID());
 
                ResultSet rs = getDates.executeQuery();{
                 while (rs.next()) {
-                    dates.add(rs.getDate("date"));
+                    dates.add(rs.getDate("date").toLocalDate());
                 }
             }
         } catch (SQLException e) {

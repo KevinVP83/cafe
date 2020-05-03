@@ -207,7 +207,6 @@ public class Cafe {
         orders.stream()
                 .filter(order -> waiter.getWaiterID() == order.getWaiterID())
                 .flatMap(order -> order.getOrderItems().stream()).forEach(orderItems::add);
-
         return orderItems;
     }
 
@@ -253,7 +252,7 @@ public class Cafe {
         else{return false;}
     }
 
-    public TreeSet<Date> getAllDatesForWaiter(Waiter waiter) throws DAOException {
+    public TreeSet<LocalDate> getAllDatesForWaiter(Waiter waiter) throws DAOException {
         return OrderDAOImpl.getInstance().getAllDates(waiter);
     }
 

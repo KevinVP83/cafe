@@ -3,6 +3,8 @@ package be.hogent.view;
 import be.hogent.model.*;
 import be.hogent.model.dao.DAOException;
 import be.hogent.model.reports.PieChartReport;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -10,16 +12,14 @@ import javafx.geometry.Insets;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.*;
+import java.sql.Date;
 
 public class MainController {
 
@@ -46,15 +46,13 @@ public class MainController {
 	@FXML
 	private TableColumn<OrderItem, Integer> beverageQtyColumn;
 	@FXML
-	private ComboBox<Date> dates;
+	private ComboBox<LocalDate> dates;
 	@FXML
 	private Label lb_currentWaiter;
 	@FXML
 	private Label lb_totalPrice;
 	@FXML
 	private Label lb_totalSalesPrice;
-	@FXML
-	private ImageView top3View;
 	@FXML
 	private PieChart top3Waiters;
 
@@ -67,6 +65,7 @@ public class MainController {
 	private ObservableList<OrderItem> orderItems;
 	private ObservableList<OrderItem> sales;
 	private Map<Table, Button> tableButtonMap;
+	private LocalDate d;
 
 	/**
 	 * The constructor.
@@ -105,6 +104,13 @@ public class MainController {
 
 		beverageTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> setB(newValue));
 		orderItemTable.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> setO(newValue));
+		dates.valueProperty().addListener((observableValue, date, t1) -> {
+			try {
+				setD(t1);
+			} catch (DAOException e) {
+				e.printStackTrace();
+			}
+		});
 	}
 
 	/**
@@ -131,8 +137,13 @@ public class MainController {
 		this.o = o;
 	}
 
+	private void setD(LocalDate d) throws DAOException {
+		this.d = d;
+		setSalesView();
+	}
 
-	private void login() {
+
+	private void login() throws DAOException {
 		if (cafeView.showLogin()) {
 			setCurrentWaiter();
 			setTables();
@@ -142,8 +153,8 @@ public class MainController {
 		}
 	}
 
-	public void logOff() {
-		lb_currentWaiter.setText("XXXXX");
+	public void logOff() throws DAOException {
+		lb_currentWaiter.setText("");
 		lb_totalPrice.setText("€ 0.00");
 		model.logoff();
 		resetTables();
@@ -305,21 +316,43 @@ public class MainController {
 		}
 	}
 
-	public void pay() throws Cafe.alreadyOtherWaiterAssignedException {
-		model.pay(model.getActiveTable());
-		setOrderItems(model.getActiveTable().getOrder());
-		updateTotalPrice();
-		setSalesView();
+	public void pay() throws DAOException, Cafe.alreadyOtherWaiterAssignedException {
+		try{
+			model.pay(model.getActiveTable());
+			setOrderItems(model.getActiveTable().getOrder());
+			updateTotalPrice();
+			setSalesView();
+			Alert alert = new Alert(Alert.AlertType.INFORMATION);
+			alert.initOwner(cafeView.getPrimaryStage());
+			alert.setTitle("SUCCES");
+			alert.setContentText(model.getActiveTable().toString() + " successfully payed the bill!");
+			alert.showAndWait();
+		} catch(DAOException e){
+			Alert alert = new Alert(Alert.AlertType.ERROR);
+			alert.initOwner(cafeView.getPrimaryStage());
+			alert.setTitle("FAILED");
+			alert.setContentText("There was an error paying the bill!");
+			alert.showAndWait();
+		}
 	}
 
-	private void setSalesView() {
-		sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter())));
-		salesView.setItems(sales);
-		setTotalSalesPrice();
+	private void setSalesView() throws DAOException {
+		if(dates.getSelectionModel().isEmpty()) {
+			sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter())));
+			salesView.setItems(sales);
+			setTotalSalesPrice();
+			getDates();
+		}
+		else{
+			sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsByDate(model.getLoggedOnWaiter(),dates.getSelectionModel().getSelectedItem())));
+			salesView.setItems(sales);
+			setTotalSalesPrice();
+			getDates();
+		}
 	}
 
 	private void setTotalSalesPrice() {
-		Double total = model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter()).stream().mapToDouble(OrderItem::getPrice).sum();
+		Double total = sales.stream().mapToDouble(OrderItem::getPrice).sum();
 		String price = String.format("%.2f", total);
 		lb_totalSalesPrice.setText("€ " + price);
 	}
@@ -333,7 +366,27 @@ public class MainController {
 	}
 
 	public void getDates() throws DAOException {
-		ObservableList<Date> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
+		ObservableList<LocalDate> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
 		dates.setItems(listDates);
+	}
+
+	public void exportToPDF(){
+		if(model.createPDF(model.getLoggedOnWaiter(),sales)){
+			Alert alert = new Alert(Alert.AlertType.INFORMATION);
+			alert.initOwner(cafeView.getPrimaryStage());
+			alert.setTitle("SUCCESS");
+			alert.setHeaderText("PDF file successfully created!");
+			alert.setContentText("You can find CafeReport.pdf in your home directory.");
+			alert.show();
+		}
+		else{
+			Alert alert = new Alert(Alert.AlertType.ERROR);
+			alert.initOwner(cafeView.getPrimaryStage());
+			alert.setTitle("FAIL");
+			alert.setHeaderText("PDF file not created!");
+			alert.setContentText("There was an error creating your pdf file!");
+			alert.showAndWait();
+		}
+
 	}
 }

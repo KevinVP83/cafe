@@ -3,18 +3,19 @@
 <?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.hogent.view.MainController">
     <children>
@@ -80,7 +81,7 @@
                               <content>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                        <children>
-                                          <TableView fx:id="salesView" layoutX="29.0" layoutY="64.0" prefHeight="568.0" prefWidth="252.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="60.0">
+                                          <TableView fx:id="salesView" layoutX="29.0" layoutY="64.0" prefHeight="568.0" prefWidth="252.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="40.0">
                                             <columns>
                                               <TableColumn fx:id="beverageNameColumn" prefWidth="170.0" text="Beverage" />
                                               <TableColumn fx:id="beverageQtyColumn" prefWidth="81.0" text="Quantity" />
@@ -99,6 +100,8 @@
                                                 <Label fx:id="lb_totalSalesPrice" GridPane.columnIndex="1" />
                                              </children>
                                           </GridPane>
+                                          <Button layoutX="347.0" layoutY="221.0" mnemonicParsing="false" onAction="#exportToPDF" text="Export to PDF" />
+                                          <ComboBox fx:id="dates" layoutX="317.0" layoutY="79.0" prefWidth="150.0" promptText="select a date" AnchorPane.leftAnchor="317.0" AnchorPane.topAnchor="80.0" />
                                        </children></AnchorPane>
                               </content>
                             </Tab>
@@ -106,9 +109,13 @@
                               <content>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                        <children>
-                                          <ImageView fx:id="top3View" fitHeight="486.0" fitWidth="696.0" layoutX="37.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="30.0" />
-                                          <Button layoutX="32.0" layoutY="570.0" mnemonicParsing="false" onAction="#showTop3View" prefHeight="39.0" prefWidth="177.0" text="Button" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" />
-                                          <PieChart fx:id="top3Waiters" layoutX="378.0" layoutY="52.0" />
+                                          <Button layoutX="32.0" layoutY="570.0" mnemonicParsing="false" onAction="#showTop3View" prefHeight="39.0" prefWidth="177.0" text="Create PieChart" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" />
+                                          <PieChart fx:id="top3Waiters" layoutX="378.0" layoutY="52.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+                                          <Label layoutX="502.0" layoutY="31.0" prefHeight="27.0" prefWidth="177.0" text="Top 3 Waiter PieChart" AnchorPane.leftAnchor="502.0" AnchorPane.rightAnchor="501.0" AnchorPane.topAnchor="31.0">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
                                        </children></AnchorPane>
                               </content>
                             </Tab>
@@ -129,7 +136,7 @@
         </rowConstraints>
          <children>
             <Label text="Logged on waiter:" />
-            <Label fx:id="lb_currentWaiter" text="XXXXX" GridPane.columnIndex="1" />
+            <Label fx:id="lb_currentWaiter" text="" GridPane.columnIndex="1" />
          </children>
       </GridPane>
     </children>
