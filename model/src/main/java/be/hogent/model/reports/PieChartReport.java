@@ -58,7 +58,6 @@ public class PieChartReport {
             logger.error("JPG file creation failed");
             return false;
         }
-
     }
 
     public boolean makeChart(Map<Waiter,Double> totalSales) throws IOException {

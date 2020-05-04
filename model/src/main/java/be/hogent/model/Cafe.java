@@ -43,9 +43,7 @@ public class Cafe {
         return activeTable;
     }
 
-    public void setLatestOrderNr(){
-        latestOrderNr += latestOrderNr;
-    }
+    public void setLatestOrderNr(){ latestOrderNr++; }
 
     public Set<Waiter> getWaiters() {
         return waiters;
@@ -246,8 +244,7 @@ public class Cafe {
     }
 
     public boolean showTopWaitersReport(Map<Waiter,Double> totalSales) throws IOException {
-        if(PieChartReport.getInstance().makeChart(totalSales)){return true;}
-        else{return false;}
+        return PieChartReport.getInstance().makeChart(totalSales);
     }
 
     public TreeSet<LocalDate> getAllDatesForWaiter(Waiter waiter) throws DAOException {

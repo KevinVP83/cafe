@@ -2,9 +2,6 @@ package be.hogent.view;
 
 import be.hogent.model.*;
 import be.hogent.model.dao.DAOException;
-import be.hogent.model.reports.PieChartReport;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -16,10 +13,11 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.time.LocalDate;
-import java.time.ZoneId;
-import java.util.*;
-import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class MainController {
 
@@ -67,17 +65,9 @@ public class MainController {
 	private Map<Table, Button> tableButtonMap;
 	private LocalDate d;
 
-	/**
-	 * The constructor.
-	 * The constructor is called before the initialize() method.
-	 */
 	public MainController() {
 	}
 
-	/**
-	 * Initializes the controller class. This method is automatically called
-	 * after the fxml file has been loaded.
-	 */
 	@FXML
 	private void initialize() {
 
@@ -113,11 +103,6 @@ public class MainController {
 		});
 	}
 
-	/**
-	 * Is called by the main application to give a reference back to itself.
-	 *
-	 * @param cafeView
-	 */
 	public void setCafeView(MainApp cafeView) throws DAOException {
 		this.cafeView = cafeView;
 		login();
@@ -209,7 +194,7 @@ public class MainController {
 		}
 	}
 
-	public void resetTables() {
+	private void resetTables() {
 		tablePane.getChildren().clear();
 	}
 
@@ -235,45 +220,65 @@ public class MainController {
 		}
 	}
 
-
-	public void setOrderItems(Order order) throws NullPointerException {
+	private void setOrderItems(Order order) throws NullPointerException {
 
 		try {
 			orderItems = FXCollections.observableList(new ArrayList<>(order.getOrderItems()));
 			orderItemTable.setItems(orderItems);
+			orderItemTable.refresh();
 			updateTotalPrice();
 		} catch (NullPointerException n) {
 			orderItems = FXCollections.observableList(new ArrayList<>());
 			orderItemTable.setItems(orderItems);
+			orderItemTable.refresh();
 			updateTotalPrice();
 		}
 	}
 
-	public void order() throws Cafe.alreadyOtherWaiterAssignedException, NullPointerException {
+	public void order() {
 		try {
-			int selectedIndex = beverageTable.getSelectionModel().getSelectedIndex();
-			if (selectedIndex >= 0) {
+			if (model.getActiveTable() == null) {
+				showError("No table selected. Please select a table first!");
+			} else {
+				int selectedIndex = beverageTable.getSelectionModel().getSelectedIndex();
+				if (selectedIndex >= 0) {
 
-				Beverage beverage = beverageTable.getSelectionModel().getSelectedItem();
-				model.order(beverage, 1);
+					Beverage beverage = beverageTable.getSelectionModel().getSelectedItem();
+					model.order(beverage, 1);
+					setOrderItems(model.getActiveTable().getOrder());
+					updateTotalPrice();
+				} else {
+					// Nothing selected.
+					showError("Please select a beverage in the table.");
+				}
 				setOrderItems(model.getActiveTable().getOrder());
-				updateTotalPrice();
-				//System.out.println(model.getActiveTable().getOrder().getOrderItems().toString());
+			}
+		}catch (Cafe.alreadyOtherWaiterAssignedException e) {
+			showError("There is already another waiter assigned!");
+		}
+	}
+
+	public void decreaseOrderItem(){
+		if(model.getActiveTable()==null){
+			showError("No table selected. Please select a table first!");
+		}
+		else{
+			int selectedIndex = orderItemTable.getSelectionModel().getSelectedIndex();
+			if (selectedIndex >= 0) {
+				if(orderItemTable.getSelectionModel().getSelectedItem().getQuantity()>0) {
+					orderItemTable.getSelectionModel().getSelectedItem().decreaseQuantity(1);
+					setOrderItems(model.getActiveTable().getOrder());
+					updateTotalPrice();
+				}
+				if (orderItemTable.getSelectionModel().getSelectedItem().getQuantity()==0) {
+					model.getActiveTable().getOrder().getOrderItems().remove(orderItemTable.getSelectionModel().getSelectedItem());
+					setOrderItems(model.getActiveTable().getOrder());
+					updateTotalPrice();
+				}
 			} else {
 				// Nothing selected.
-				Alert alert = new Alert(Alert.AlertType.WARNING);
-				alert.initOwner(cafeView.getPrimaryStage());
-				alert.setTitle("No beverage selected");
-				alert.setContentText("Please select a beverage in the table.");
-				alert.showAndWait();
+				showError("No orderItem selected. Please select orderItem first!");
 			}
-			setOrderItems(model.getActiveTable().getOrder());
-		} catch (NullPointerException e) {
-			Alert alert = new Alert(Alert.AlertType.WARNING);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("No Table Selected");
-			alert.setContentText("Please select a table!");
-			alert.showAndWait();
 		}
 	}
 
@@ -290,19 +295,11 @@ public class MainController {
 				}
 			} else {
 				// Nothing selected.
-				Alert alert = new Alert(Alert.AlertType.WARNING);
-				alert.initOwner(cafeView.getPrimaryStage());
-				alert.setTitle("No orderItem selected");
-				alert.setContentText("Please select orderItem in the table.");
-				alert.showAndWait();
+				showError("No orderItem selected. Please select orderItem first!");
 			}
 			setOrderItems(model.getActiveTable().getOrder());
 		} catch (NullPointerException e) {
-			Alert alert = new Alert(Alert.AlertType.WARNING);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("No Table Selected");
-			alert.setContentText("Please select a table!");
-			alert.showAndWait();
+			showError("No table selected. Please select a table first!");
 		}
 	}
 
@@ -316,39 +313,33 @@ public class MainController {
 		}
 	}
 
-	public void pay() throws DAOException, Cafe.alreadyOtherWaiterAssignedException {
-		try{
-			model.pay(model.getActiveTable());
-			setOrderItems(model.getActiveTable().getOrder());
-			updateTotalPrice();
-			setSalesView();
-			Alert alert = new Alert(Alert.AlertType.INFORMATION);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("SUCCES");
-			alert.setContentText(model.getActiveTable().toString() + " successfully payed the bill!");
-			alert.showAndWait();
-		} catch(DAOException e){
-			Alert alert = new Alert(Alert.AlertType.ERROR);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("FAILED");
-			alert.setContentText("There was an error paying the bill!");
-			alert.showAndWait();
+	public void pay() {
+		if(model.getActiveTable()==null || model.getActiveTable().getOrder()==null || model.getActiveTable().getOrder().getOrderItems().size()==0){
+			showError("No order to pay!");
+		}
+		else {
+			try {
+				model.pay(model.getActiveTable());
+				setOrderItems(model.getActiveTable().getOrder());
+				updateTotalPrice();
+				setSalesView();
+				showInfo(model.getActiveTable().toString() + " successfully payed the bill!");
+			} catch (Cafe.alreadyOtherWaiterAssignedException e) {
+				showError("There is already another waiter assigned!");
+			}
 		}
 	}
 
-	private void setSalesView() throws DAOException {
+	private void setSalesView()  {
 		if(dates.getSelectionModel().isEmpty()) {
 			sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsForWaiter(model.getLoggedOnWaiter())));
-			salesView.setItems(sales);
-			setTotalSalesPrice();
-			getDates();
 		}
 		else{
 			sales = FXCollections.observableList(new ArrayList<>(model.getAllOrderItemsByDate(model.getLoggedOnWaiter(),dates.getSelectionModel().getSelectedItem())));
-			salesView.setItems(sales);
-			setTotalSalesPrice();
-			getDates();
 		}
+		salesView.setItems(sales);
+		setTotalSalesPrice();
+		getDates();
 	}
 
 	private void setTotalSalesPrice() {
@@ -357,36 +348,50 @@ public class MainController {
 		lb_totalSalesPrice.setText("€ " + price);
 	}
 
-	public void showTop3View() {
+	public void showTop3View() throws IOException {
 		ObservableList<PieChart.Data> topWaiters = FXCollections.observableArrayList();
 		for (Map.Entry<Waiter, Double> entry : model.getTop3WaiterSales().entrySet()) {
 			topWaiters.add(new PieChart.Data(entry.getKey().toString(), entry.getValue()));
 		}
 		top3Waiters.setData(topWaiters);
+		try {
+			model.showTopWaitersReport(model.getTop3WaiterSales());
+		}catch (IOException e){
+			showError("Error creating TopWaiters.jpg in your root directory!");
+		}
 	}
 
-	public void getDates() throws DAOException {
-		ObservableList<LocalDate> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
-		dates.setItems(listDates);
+	private void getDates() {
+		try {
+			ObservableList<LocalDate> listDates = FXCollections.observableArrayList(model.getAllDatesForWaiter(model.getLoggedOnWaiter()));
+			dates.setItems(listDates);
+		}catch(DAOException e){
+			showError("There was a problem getting the requested dates from database !");
+		}
 	}
 
 	public void exportToPDF(){
 		if(model.createPDF(model.getLoggedOnWaiter(),sales)){
-			Alert alert = new Alert(Alert.AlertType.INFORMATION);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("SUCCESS");
-			alert.setHeaderText("PDF file successfully created!");
-			alert.setContentText("You can find CafeReport.pdf in your home directory.");
-			alert.show();
+			showInfo("PDF successfully created! You can find CafeReport.pdf in your home directory.");
 		}
 		else{
-			Alert alert = new Alert(Alert.AlertType.ERROR);
-			alert.initOwner(cafeView.getPrimaryStage());
-			alert.setTitle("FAIL");
-			alert.setHeaderText("PDF file not created!");
-			alert.setContentText("There was an error creating your pdf file!");
-			alert.showAndWait();
+			showError("There was an error creating your pdf file!");
 		}
+	}
 
+	private void showError(String message){
+		Alert alert = new Alert(Alert.AlertType.WARNING);
+		alert.initOwner(cafeView.getPrimaryStage());
+		alert.setTitle("ERROR");
+		alert.setContentText(message);
+		alert.showAndWait();
+	}
+
+	private void showInfo(String message){
+		Alert alert = new Alert(Alert.AlertType.INFORMATION);
+		alert.initOwner(cafeView.getPrimaryStage());
+		alert.setTitle("INFO");
+		alert.setContentText(message);
+		alert.show();
 	}
 }

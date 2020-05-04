@@ -43,4 +43,15 @@ class TableTest {
         table1.setAssignedWaiter(wout);
         assertEquals(wout,table1.getAssignedWaiter(),"Table 1 assigned waiter should be Wout !");
     }
+
+    @Test
+    void compareToTest(){
+        assertEquals(1,table2.compareTo(table1),"CompareToTest failed!");
+    }
+
+    @Test
+    void equalsTest(){
+        Table tableTest = new Table(1);
+        assertEquals(table1,tableTest,"equalsTest failed!");
+    }
 }
