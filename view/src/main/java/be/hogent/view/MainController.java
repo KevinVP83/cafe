@@ -168,7 +168,7 @@ public class MainController {
 	}
 
 	public void setTables() {
-		tableButtonMap = new HashMap<>();
+		tableButtonMap = new TreeMap<>();
 		scrollPane.setContent(tablePane);
 		scrollPane.setFitToWidth(true);
 
@@ -179,7 +179,7 @@ public class MainController {
 		tablePane.setMaxHeight(Region.USE_PREF_SIZE);
 		for (Table table : model.getTables()) {
 			Button button = new Button(table.toString());
-			button.setPrefSize(110, 110);
+			button.setPrefSize(150, 150);
 			tablePane.getChildren().addAll(button);
 			tableButtonMap.put(table, button);
 

@@ -3,7 +3,9 @@ package be.hogent.model;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Table {
+import java.util.Objects;
+
+public class Table implements Comparable<Table>{
     private final Logger logger = LogManager.getLogger(Table.class.getName());
     private final int tableNr;
     private Waiter assignedWaiter;
@@ -42,5 +44,25 @@ public class Table {
 
     public void createOrder() {
         order = new Order(getTableNr());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Table table = (Table) o;
+        return tableNr == table.tableNr;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(tableNr);
+    }
+
+    @Override
+    public int compareTo(Table t) {
+        if(this.getTableNr() > t.getTableNr()) return 1;
+        if(this.getTableNr() < t.getTableNr()) return -1;
+        else return 0;
     }
 }
