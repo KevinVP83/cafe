@@ -1,5 +1,6 @@
 package be.hogent.model;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.time.LocalDate;
 import java.util.*;
@@ -7,7 +8,8 @@ import java.util.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Order {
+public class Order implements Serializable {
+    private static final long serialVersionUID = 8372442029493730445L;
     private static Logger logger = LogManager.getLogger(Order.class.getName());
     private int waiterID;
     private int orderNr;

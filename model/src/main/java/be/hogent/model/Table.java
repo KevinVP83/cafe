@@ -3,9 +3,11 @@ package be.hogent.model;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Table implements Comparable<Table>{
+public class Table implements Comparable<Table>, Serializable {
+    private static final long serialVersionUID = 4800163837626853078L;
     private final Logger logger = LogManager.getLogger(Table.class.getName());
     private final int tableNr;
     private Waiter assignedWaiter;

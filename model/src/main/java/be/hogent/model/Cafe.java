@@ -9,8 +9,7 @@ import be.hogent.model.reports.PieChartReport;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -86,7 +85,8 @@ public class Cafe {
     private void initializeCafe(){
         waiters = WaiterDAOImpl.getInstance().getWaiters();
         beverages = BeverageDAOImpl.getInstance().getBeverages();
-        setTables();
+        if(!deserializeTables()) setTables();
+        else deserializeTables();
         latestOrderNr = OrderDAOImpl.getInstance().getLatestOrderNr() + 1;
         logger.info("Cafe successfully initialized. ");
     }
@@ -249,6 +249,30 @@ public class Cafe {
 
     public TreeSet<LocalDate> getAllDatesForWaiter(Waiter waiter) throws DAOException {
         return OrderDAOImpl.getInstance().getAllDates(waiter);
+    }
+
+    public boolean serializeTables(){
+        boolean result = false;
+        try (FileOutputStream fs = new FileOutputStream("tables.ser");
+             ObjectOutputStream os = new ObjectOutputStream(fs)){
+            os.writeObject(tables);
+            result = true;
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public boolean deserializeTables(){
+        boolean result = false;
+        try (FileInputStream fis = new FileInputStream("tables.ser");
+             ObjectInputStream ois = new ObjectInputStream(fis)){
+            tables = (HashSet<Table>) ois.readObject();
+            result = true;
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return result;
     }
 
     //Exceptions

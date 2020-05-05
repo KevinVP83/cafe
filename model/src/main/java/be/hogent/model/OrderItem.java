@@ -1,9 +1,11 @@
 package be.hogent.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 import java.util.logging.Logger;
 
-public class OrderItem {
+public class OrderItem implements Serializable {
+    private static final long serialVersionUID = -2173213416551832750L;
     private static Logger logger = Logger.getLogger(OrderItem.class.getName());
     private Beverage beverage;
     private int quantity;

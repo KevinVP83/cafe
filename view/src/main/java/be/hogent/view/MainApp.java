@@ -44,6 +44,11 @@ public class MainApp extends Application {
         showMainView();
     }
 
+    @Override
+    public void stop(){
+        model.serializeTables();
+    }
+
     public Stage getPrimaryStage () {
         return primaryStage;
     }

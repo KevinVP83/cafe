@@ -94,7 +94,8 @@ class CafeTest {
 
     @Test
     void setTablesTest(){
-       assertEquals(6,cafe.getTables().size(),"Test setTables failed");
+        cafe.setTables();
+        assertEquals(6,cafe.getTables().size(),"Test setTables failed");
     }
 
     @Test
@@ -202,5 +203,11 @@ class CafeTest {
     public void getAllDatesForWaiterTest() throws Cafe.AlreadyLoggedOnException, Cafe.WrongCredentialsException, DAOException {
         cafe.login("Wout Peters", "password");
         assertTrue(cafe.getAllDatesForWaiter(cafe.getLoggedOnWaiter()).size()>0);
+    }
+
+    @Test
+    public void serializeTest(){
+        assertTrue(cafe.serializeTables());
+        assertTrue(cafe.deserializeTables());
     }
 }

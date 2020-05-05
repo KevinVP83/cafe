@@ -1,10 +1,10 @@
 package be.hogent.model;
 
+import java.io.Serializable;
 import java.util.Objects;
-import java.util.logging.Logger;
 
-public class Waiter {
-    private static Logger logger = Logger.getLogger(Waiter.class.getName());
+public class Waiter implements Serializable {
+    private static final long serialVersionUID = 1718408326711969967L;
     private final int waiterID;
     private final String lastName;
     private final String firsName;
