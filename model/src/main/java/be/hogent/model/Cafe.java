@@ -16,6 +16,7 @@ import java.util.*;
 import static java.util.stream.Collectors.toMap;
 
 public class Cafe {
+
     private final Logger logger = LogManager.getLogger(Cafe.class.getName());
     private Set<Waiter> waiters = new HashSet<>();
     private List<Beverage> beverages = new ArrayList<>();

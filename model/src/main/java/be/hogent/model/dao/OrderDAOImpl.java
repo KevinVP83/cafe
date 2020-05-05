@@ -54,7 +54,7 @@ public class OrderDAOImpl extends BaseDAO implements OrderDAO {
         try (
                 Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(MAX_ORDER_NUMBER);
-                ResultSet rs = preparedStatement.executeQuery();
+                ResultSet rs = preparedStatement.executeQuery()
         ) {
 
             while (rs.next()) {

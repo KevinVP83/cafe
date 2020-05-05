@@ -21,7 +21,7 @@ import java.util.List;
 public class PDFReport {
 
     final Logger logger = LogManager.getLogger(PDFReport.class.getName());
-    Path dest = Paths.get(System.getProperty("user.home"),"CafeReport.pdf") ;
+    final Path dest = Paths.get(System.getProperty("user.home"),"CafeReport.pdf") ;
 
     private static PDFReport instance = new PDFReport();
 

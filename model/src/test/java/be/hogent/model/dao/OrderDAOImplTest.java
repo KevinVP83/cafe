@@ -4,7 +4,6 @@ import be.hogent.model.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Set;
 

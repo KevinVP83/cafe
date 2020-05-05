@@ -4,12 +4,8 @@ import be.hogent.model.Waiter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
-import org.jfree.chart.labels.PieSectionLabelGenerator;
-import org.jfree.chart.labels.StandardPieSectionLabelGenerator;
-import org.jfree.chart.plot.PiePlot;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
 
@@ -17,12 +13,11 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Date;
 import java.util.Map;
 
 public class PieChartReport {
 
-    Path dest = Paths.get(System.getProperty("user.home"),"TopWaiters.jpg") ;
+    final Path dest = Paths.get(System.getProperty("user.home"),"TopWaiters.jpg") ;
     final Logger logger = LogManager.getLogger(PieChartReport.class.getName());
 
 
@@ -61,9 +56,6 @@ public class PieChartReport {
     }
 
     public boolean makeChart(Map<Waiter,Double> totalSales) throws IOException {
-        if(createPieChart(createDataset(totalSales))){
-            return true;
-        }
-        else{return false;}
+        return createPieChart(createDataset(totalSales));
     }
 }

@@ -4,12 +4,14 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Waiter implements Serializable {
+
     private static final long serialVersionUID = 1718408326711969967L;
     private final int waiterID;
     private final String lastName;
     private final String firsName;
     private final String password;
 
+    //Constructor
 
     public Waiter(int waiterID, String lastName, String firsName, String password){
         this.waiterID = waiterID;
@@ -17,6 +19,8 @@ public class Waiter implements Serializable {
         this.lastName = lastName;
         this.password = password;
     }
+
+    //Getters and setters
 
     public int getWaiterID() {
         return waiterID;
@@ -34,10 +38,11 @@ public class Waiter implements Serializable {
         return password;
     }
 
+    //Overrides
+
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder(getFirsName()).append(" ").append(getLastName());
-        return sb.toString();
+        return getFirsName() + " " + getLastName();
     }
 
     @Override

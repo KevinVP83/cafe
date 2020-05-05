@@ -5,11 +5,19 @@ import java.util.Objects;
 import java.util.logging.Logger;
 
 public class OrderItem implements Serializable {
+
     private static final long serialVersionUID = -2173213416551832750L;
-    private static Logger logger = Logger.getLogger(OrderItem.class.getName());
-    private Beverage beverage;
+    private final Beverage beverage;
     private int quantity;
     private String name;
+
+    //Constructor
+
+    public OrderItem(Beverage beverage, int quantity){
+        this.beverage = beverage;
+        this.quantity = quantity;
+        setName();
+    }
 
     //Getters and Setters
 
@@ -48,14 +56,6 @@ public class OrderItem implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(beverage);
-    }
-
-    //Constructor
-
-    public OrderItem(Beverage beverage, int quantity){
-        this.beverage = beverage;
-        this.quantity = quantity;
-        setName();
     }
 
     //methods

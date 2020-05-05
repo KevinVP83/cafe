@@ -17,135 +17,151 @@
 <?import javafx.scene.layout.TilePane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.hogent.view.MainController">
-    <children>
-      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
-        <tabs>
-          <Tab text="Main">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1200.0">
-                     <children>
-                              <TableView fx:id="beverageTable" prefHeight="479.0" prefWidth="237.0" AnchorPane.bottomAnchor="210.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
-                                  <columns>
-                                      <TableColumn fx:id="nameColumn" prefWidth="166.0" text="Name" />
-                                      <TableColumn fx:id="priceColumn" prefWidth="69.0" text="Price" />
-                                  </columns>
-                                  <columnResizePolicy>
-                                      <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-                                  </columnResizePolicy>
-                              </TableView>
-                        <TableView fx:id="orderItemTable" layoutX="714.0" layoutY="10.0" prefHeight="352.0" prefWidth="200.0" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="10.0">
-                          <columns>
-                            <TableColumn fx:id="itemNameColumn" prefWidth="124.0" text="Name" />
-                            <TableColumn fx:id="itemQtyColumn" prefWidth="75.0" text="Qty" />
-                          </columns>
-                        </TableView>
-                        <ScrollPane fx:id="scrollPane" layoutX="14.0" layoutY="10.0" prefHeight="562.0" prefWidth="668.0" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
-                          <content>
-                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
-                                 <children>
-                                    <TilePane fx:id="tablePane" prefHeight="200.0" prefWidth="200.0" />
-                                 </children>
-                              </AnchorPane>
-                          </content>
-                        </ScrollPane>
-                        <ButtonBar />
-                        <Button fx:id="bt_Order" layoutX="951.0" layoutY="533.0" mnemonicParsing="false" onAction="#order" prefHeight="40.0" prefWidth="235.0" text="Add to Order" AnchorPane.bottomAnchor="105.0" AnchorPane.rightAnchor="14.0" />
-                        <Button layoutX="715.0" layoutY="479.0" mnemonicParsing="false" onAction="#deleteOrderItem" prefHeight="39.0" prefWidth="201.0" text="Delete OrderItem" AnchorPane.bottomAnchor="170.0" AnchorPane.rightAnchor="284.0" />
-                        <GridPane layoutX="704.0" layoutY="385.0" prefHeight="18.0" prefWidth="149.0" AnchorPane.bottomAnchor="290.0" AnchorPane.rightAnchor="310.0">
-                           <columnConstraints>
-                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="10.0" prefWidth="72.0" />
-                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="5.0" prefWidth="77.0" />
-                           </columnConstraints>
-                           <rowConstraints>
-                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                           </rowConstraints>
-                           <children>
-                              <Label text="Total Price:" />
-                              <Label fx:id="lb_totalPrice" GridPane.columnIndex="1" />
-                           </children>
-                        </GridPane>
-                        <Button layoutX="714.0" layoutY="533.0" mnemonicParsing="false" onAction="#pay" prefHeight="40.0" prefWidth="201.0" text="Pay" AnchorPane.bottomAnchor="105.0" AnchorPane.rightAnchor="285.0" />
-                        <Button fx:id="logOff" layoutX="24.0" layoutY="636.0" mnemonicParsing="false" onAction="#logOff" prefHeight="40.0" prefWidth="200.0" text="Log Off" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" />
-                        <Button layoutX="717.0" layoutY="425.0" mnemonicParsing="false" onAction="#decreaseOrderItem" prefHeight="40.0" prefWidth="201.0" text="Decrease orderItem" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="410.0" />
-                     </children>
-                  </AnchorPane>
-            </content>
-          </Tab>
-          <Tab text="Reports">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <TabPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
-                          <tabs>
-                            <Tab text="Total Sales">
-                              <content>
-                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                       <children>
-                                          <TableView fx:id="salesView" layoutX="29.0" layoutY="64.0" prefHeight="568.0" prefWidth="252.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="40.0">
-                                            <columns>
-                                              <TableColumn fx:id="beverageNameColumn" prefWidth="170.0" text="Beverage" />
-                                              <TableColumn fx:id="beverageQtyColumn" prefWidth="81.0" text="Quantity" />
-                                            </columns>
-                                          </TableView>
-                                          <GridPane layoutX="30.0" layoutY="588.0" prefHeight="30.0" prefWidth="253.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0">
-                                            <columnConstraints>
-                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                            </columnConstraints>
-                                            <rowConstraints>
-                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                            </rowConstraints>
-                                             <children>
-                                                <Label text="Total Price" />
-                                                <Label fx:id="lb_totalSalesPrice" GridPane.columnIndex="1" />
-                                             </children>
-                                          </GridPane>
-                                          <Button layoutX="347.0" layoutY="221.0" mnemonicParsing="false" onAction="#exportToPDF" text="Export to PDF" />
-                                          <ComboBox fx:id="dates" layoutX="317.0" layoutY="79.0" prefWidth="150.0" promptText="select a date" AnchorPane.leftAnchor="317.0" AnchorPane.topAnchor="80.0" />
-                                       </children></AnchorPane>
-                              </content>
-                            </Tab>
-                            <Tab text="Top 3">
-                              <content>
-                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                       <children>
-                                          <Button layoutX="32.0" layoutY="570.0" mnemonicParsing="false" onAction="#showTop3View" prefHeight="39.0" prefWidth="177.0" text="Create PieChart" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" />
-                                          <PieChart fx:id="top3Waiters" layoutX="378.0" layoutY="52.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
-                                          <Label layoutX="502.0" layoutY="31.0" prefHeight="27.0" prefWidth="177.0" text="Top 3 Waiter PieChart" AnchorPane.leftAnchor="502.0" AnchorPane.rightAnchor="501.0" AnchorPane.topAnchor="31.0">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="263.0" layoutY="589.0" prefHeight="40.0" prefWidth="300.0" text="After creation you can also find this Chart in your root directory as TopWaiters.jpg " textAlignment="CENTER" textOverrun="CLIP" wrapText="true" AnchorPane.bottomAnchor="30.0" />
-                                       </children></AnchorPane>
-                              </content>
-                            </Tab>
-                          </tabs>
-                        </TabPane>
-                     </children></AnchorPane>
-            </content>
-          </Tab>
-        </tabs>
-      </TabPane>
-      <GridPane layoutX="29.0" layoutY="261.0" prefHeight="21.0" prefWidth="379.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.hogent.view.MainController">
+    <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="35.0"
+             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
+        <Tab text="Main">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1200.0">
+                <TableView fx:id="beverageTable" prefHeight="479.0" prefWidth="237.0"
+                           AnchorPane.bottomAnchor="210.0" AnchorPane.rightAnchor="10.0"
+                           AnchorPane.topAnchor="10.0">
+                    <columns>
+                        <TableColumn fx:id="nameColumn" prefWidth="166.0" text="Name"/>
+                        <TableColumn fx:id="priceColumn" prefWidth="69.0" text="Price"/>
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                    </columnResizePolicy>
+                </TableView>
+                <TableView fx:id="orderItemTable" layoutX="714.0" layoutY="10.0" prefHeight="352.0"
+                           prefWidth="200.0" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="10.0">
+                    <columns>
+                        <TableColumn fx:id="itemNameColumn" prefWidth="124.0" text="Name"/>
+                        <TableColumn fx:id="itemQtyColumn" prefWidth="75.0" text="Qty"/>
+                    </columns>
+                </TableView>
+                <ScrollPane fx:id="scrollPane" layoutX="14.0" layoutY="10.0" prefHeight="562.0"
+                            prefWidth="668.0" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="10.0"
+                            AnchorPane.topAnchor="10.0">
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                        <TilePane fx:id="tablePane" prefHeight="200.0" prefWidth="200.0"/>
+                    </AnchorPane>
+                </ScrollPane>
+                <ButtonBar/>
+                <Button fx:id="bt_Order" layoutX="951.0" layoutY="533.0" mnemonicParsing="false" onAction="#order"
+                        prefHeight="40.0" prefWidth="235.0" text="Add to Order" AnchorPane.bottomAnchor="105.0"
+                        AnchorPane.rightAnchor="14.0"/>
+                <Button layoutX="715.0" layoutY="479.0" mnemonicParsing="false" onAction="#deleteOrderItem"
+                        prefHeight="39.0" prefWidth="201.0" text="Delete OrderItem" AnchorPane.bottomAnchor="170.0"
+                        AnchorPane.rightAnchor="284.0"/>
+                <GridPane layoutX="704.0" layoutY="385.0" prefHeight="18.0" prefWidth="149.0"
+                          AnchorPane.bottomAnchor="290.0" AnchorPane.rightAnchor="310.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="10.0"
+                                           prefWidth="72.0"/>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="5.0" prefWidth="77.0"/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    </rowConstraints>
+                    <Label text="Total Price:"/>
+                    <Label fx:id="lb_totalPrice" GridPane.columnIndex="1"/>
+                </GridPane>
+                <Button layoutX="714.0" layoutY="533.0" mnemonicParsing="false" onAction="#pay" prefHeight="40.0"
+                        prefWidth="201.0" text="Pay" AnchorPane.bottomAnchor="105.0"
+                        AnchorPane.rightAnchor="285.0"/>
+                <Button fx:id="logOff" layoutX="24.0" layoutY="636.0" mnemonicParsing="false" onAction="#logOff"
+                        prefHeight="40.0" prefWidth="200.0" text="Log Off" AnchorPane.bottomAnchor="20.0"
+                        AnchorPane.leftAnchor="10.0"/>
+                <Button layoutX="717.0" layoutY="425.0" mnemonicParsing="false" onAction="#decreaseOrderItem"
+                        prefHeight="40.0" prefWidth="201.0" text="Decrease orderItem" AnchorPane.rightAnchor="285.0"
+                        AnchorPane.topAnchor="410.0"/>
+            </AnchorPane>
+        </Tab>
+        <Tab text="Reports">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <TabPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0"
+                         tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="10.0"
+                         AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
+                         AnchorPane.topAnchor="15.0">
+                    <Tab text="Total Sales">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <TableView fx:id="salesView" layoutX="29.0" layoutY="64.0" prefHeight="568.0"
+                                       prefWidth="252.0" AnchorPane.bottomAnchor="60.0"
+                                       AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="40.0">
+                                <columns>
+                                    <TableColumn fx:id="beverageNameColumn" prefWidth="170.0"
+                                                 text="Beverage"/>
+                                    <TableColumn fx:id="beverageQtyColumn" prefWidth="81.0" text="Quantity"/>
+                                </columns>
+                            </TableView>
+                            <GridPane layoutX="30.0" layoutY="588.0" prefHeight="30.0" prefWidth="253.0"
+                                      AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0">
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"
+                                                       prefWidth="100.0"/>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"
+                                                       prefWidth="100.0"/>
+                                </columnConstraints>
+                                <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0"
+                                                    vgrow="SOMETIMES"/>
+                                </rowConstraints>
+                                <Label text="Total Price"/>
+                                <Label fx:id="lb_totalSalesPrice" GridPane.columnIndex="1"/>
+                            </GridPane>
+                            <Button layoutX="347.0" layoutY="221.0" mnemonicParsing="false"
+                                    onAction="#exportToPDF" text="Export to PDF"/>
+                            <ComboBox fx:id="dates" layoutX="317.0" layoutY="79.0" prefWidth="150.0"
+                                      promptText="select a date" AnchorPane.leftAnchor="317.0"
+                                      AnchorPane.topAnchor="80.0"/>
+                        </AnchorPane>
+                    </Tab>
+                    <Tab text="Top 3">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <Button layoutX="32.0" layoutY="570.0" mnemonicParsing="false"
+                                    onAction="#showTop3View" prefHeight="39.0" prefWidth="177.0"
+                                    text="Create PieChart" AnchorPane.bottomAnchor="30.0"
+                                    AnchorPane.leftAnchor="30.0"/>
+                            <PieChart fx:id="top3Waiters" layoutX="378.0" layoutY="52.0"
+                                      AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="250.0"
+                                      AnchorPane.rightAnchor="250.0"/>
+                            <Label layoutX="502.0" layoutY="31.0" prefHeight="27.0" prefWidth="177.0"
+                                   text="Top 3 Waiter PieChart" AnchorPane.leftAnchor="502.0"
+                                   AnchorPane.rightAnchor="501.0" AnchorPane.topAnchor="31.0">
+                                <font>
+                                    <Font size="18.0"/>
+                                </font>
+                            </Label>
+                            <Label layoutX="263.0" layoutY="589.0" prefHeight="40.0" prefWidth="300.0"
+                                   text="After creation you can also find this Chart in your root directory as TopWaiters.jpg "
+                                   textAlignment="CENTER" textOverrun="CLIP" wrapText="true"
+                                   AnchorPane.bottomAnchor="30.0"/>
+                        </AnchorPane>
+                    </Tab>
+                </TabPane>
+            </AnchorPane>
+        </Tab>
+    </TabPane>
+    <GridPane layoutX="29.0" layoutY="261.0" prefHeight="21.0" prefWidth="379.0" AnchorPane.bottomAnchor="10.0"
+              AnchorPane.leftAnchor="10.0">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="133.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="5.0" prefWidth="193.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="133.0"/>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="5.0" prefWidth="193.0"/>
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
         </rowConstraints>
-         <children>
-            <Label prefHeight="24.0" prefWidth="171.0" text="Logged on waiter:">
-               <font>
-                  <Font name="Arial Black" size="16.0" />
-               </font></Label>
-            <Label fx:id="lb_currentWaiter" prefHeight="25.0" prefWidth="194.0" text="" GridPane.columnIndex="1">
-               <font>
-                  <Font size="16.0" />
-               </font></Label>
-         </children>
-      </GridPane>
-    </children>
+        <Label prefHeight="24.0" prefWidth="171.0" text="Logged on waiter:">
+            <font>
+                <Font name="Arial Black" size="16.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lb_currentWaiter" prefHeight="25.0" prefWidth="194.0" GridPane.columnIndex="1">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Label>
+    </GridPane>
 </AnchorPane>

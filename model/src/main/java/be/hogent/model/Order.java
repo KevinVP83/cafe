@@ -9,13 +9,30 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Order implements Serializable {
+
     private static final long serialVersionUID = 8372442029493730445L;
-    private static Logger logger = LogManager.getLogger(Order.class.getName());
+    private final Logger logger = LogManager.getLogger(Order.class.getName());
     private int waiterID;
     private int orderNr;
     private int tableNr;
-    private Set<OrderItem> orderItems = new HashSet<>();
+    private final Set<OrderItem> orderItems = new HashSet<>();
     private LocalDate date;
+
+    //constructors
+
+    public Order(){}
+
+    public Order(int tableNr){
+        setDate();
+        setTableNr(tableNr);
+    }
+
+    public Order(int orderNr, Date date, int waiterID){
+        this.orderNr = orderNr;
+        this.date = date.toLocalDate();
+        this.waiterID = waiterID;
+    }
+
 
     //Getters and Setters
 
@@ -43,19 +60,19 @@ public class Order implements Serializable {
 
     public void setTableNr(int tableNr) { this.tableNr = tableNr;}
 
-    //constructors
+    //Overrides
 
-    public Order(){}
-
-    public Order(int tableNr){
-        setDate();
-        setTableNr(tableNr);
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Order order = (Order) o;
+        return orderNr == order.orderNr;
     }
 
-    public Order(int orderNr, Date date, int waiterID){
-        this.orderNr = orderNr;
-        this.date = date.toLocalDate();
-        this.waiterID = waiterID;
+    @Override
+    public int hashCode() {
+        return Objects.hash(orderNr);
     }
 
     //Methods
@@ -96,19 +113,6 @@ public class Order implements Serializable {
 
     public double getTotalPrice() {
         return orderItems.stream().mapToDouble(OrderItem::getPrice).sum();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Order order = (Order) o;
-        return orderNr == order.orderNr;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(orderNr);
     }
 }
 

@@ -2,8 +2,6 @@ package be.hogent.model;
 
 import be.hogent.model.dao.DAOException;
 import be.hogent.model.dao.OrderDAOImpl;
-import be.hogent.model.reports.PDFReport;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

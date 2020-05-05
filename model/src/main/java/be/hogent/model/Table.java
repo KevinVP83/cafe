@@ -7,18 +7,27 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Table implements Comparable<Table>, Serializable {
+
     private static final long serialVersionUID = 4800163837626853078L;
     private final Logger logger = LogManager.getLogger(Table.class.getName());
     private final int tableNr;
     private Waiter assignedWaiter;
     private Order order;
 
-    public int getTableNr() {
-        return tableNr;
+    //constructor
+
+    public Table (int tableNr){
+        this.tableNr = tableNr;
     }
+
+    //getters and setters
 
     public Order getOrder() {
         return order;
+    }
+
+    public int getTableNr() {
+        return tableNr;
     }
 
     public Waiter getAssignedWaiter() {
@@ -29,23 +38,11 @@ public class Table implements Comparable<Table>, Serializable {
         this.assignedWaiter = waiter;
     }
 
-    public Table (int tableNr){
-        this.tableNr = tableNr;
-    }
+    //Overrides
 
     @Override
     public String toString() {
         return "Table " + tableNr;
-    }
-
-    public void clearTable(){
-        order = null;
-        assignedWaiter = null;
-        logger.debug(this.toString() + " successfully cleared");
-    }
-
-    public void createOrder() {
-        order = new Order(getTableNr());
     }
 
     @Override
@@ -66,5 +63,17 @@ public class Table implements Comparable<Table>, Serializable {
         if(this.getTableNr() > t.getTableNr()) return 1;
         if(this.getTableNr() < t.getTableNr()) return -1;
         else return 0;
+    }
+
+    //Methods
+
+    public void clearTable(){
+        order = null;
+        assignedWaiter = null;
+        logger.debug(this.toString() + " successfully cleared");
+    }
+
+    public void createOrder() {
+        order = new Order(getTableNr());
     }
 }

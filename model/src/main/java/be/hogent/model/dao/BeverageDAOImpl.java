@@ -6,13 +6,11 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class BeverageDAOImpl extends BaseDAO implements BeverageDAO {
 
-    private static final String GET_ALL_BEVERAGES = "SELECT * from beverages";
+    private final String GET_ALL_BEVERAGES = "SELECT * from beverages";
     private final Logger logger = LogManager.getLogger(BeverageDAOImpl.class.getName());
     private final String GET_BEVERAGE_BY_ID = "SELECT * from beverages where beverageID = ?";
     private static BeverageDAOImpl instance = new BeverageDAOImpl();

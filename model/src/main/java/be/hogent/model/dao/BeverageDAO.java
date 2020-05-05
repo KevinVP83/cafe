@@ -5,6 +5,6 @@ import be.hogent.model.Beverage;
 import java.util.List;
 
 public interface BeverageDAO {
-    public List<Beverage> getBeverages();
-    public Beverage getBeverageByID(int beverageID);
+    List<Beverage> getBeverages();
+    Beverage getBeverageByID(int beverageID);
 }
